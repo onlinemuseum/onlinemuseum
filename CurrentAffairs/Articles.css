@@ -41,6 +41,28 @@ to {background-position:  0 -140px;}
     
     }
     
+ #Logo{position:relative;}
+    #Logo p{
+        text-align: center;;
+        color:rgb(255, 227, 184); 
+        font-size:16px;
+        text-shadow:1px 1px rgb(77, 77, 77);
+        position:absolute;
+        top:-20px;
+        left:-24px;
+    }
+    #Logo a{
+        text-shadow:1.5px 1.5px rgb(63, 56, 17);
+
+        color:white; }
+
+    #Logo a span{
+        color:rgb(255, 227, 184); 
+        color:rgb(255, 222, 206); 
+
+
+        /*nice color: rgb(206, 77, 77) */
+    }
 
 header{
     margin-bottom:25px; 
