@@ -222,6 +222,20 @@ iframe{
     margin-top:7x;
 }
 
+#SidePicture{
+    width:50%;
+
+    float:right;
+}
+
+#SidePictureLeft{
+    width:50%;
+    margin-right:15px;
+    margin-bottom:-10px;
+    float: left;
+}
+
+
 #PicCaption{
     text-align:center; 
     color: grey; 
