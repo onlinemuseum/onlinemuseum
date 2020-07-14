@@ -61,8 +61,8 @@ img{
   margin:0 auto;
   width: 80%;
 
-  -webkit-transition:1.2s;
-  transition:1.2s;
+  -webkit-transition:2s;
+  transition:2s;
 }
 .reveal {
   opacity: 1;
