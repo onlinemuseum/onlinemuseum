@@ -20,9 +20,6 @@
     border-bottom-right-radius: 11px;;
 }
 
-
-
-
 @-webkit-keyframes backgroundScroll {
 from {background-position: 0 20px}
 to {background-position:  0 -140px;}
