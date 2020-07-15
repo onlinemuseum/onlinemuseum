@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://onlinemuseum.net/</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/index.html</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/histories/articles</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/gallery/gallery</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/magazine/magazine</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/histories/articles/enzian/gentianspirits</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/gallery/bonsai/bonsaitrees</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/histories/articles/harleydavidson/harleydavidson</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/histories/articles/vangogh/vangogh</loc>
+  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+
+
+
+
+</urlset>

@@ -118,3 +118,15 @@ header{
         
     }
 }
+
+
+@media only screen and (max-width:700px) {
+    .GalleryGrid a{
+        color:rgb(110, 110, 110);
+        text-decoration: none;;
+        font-size:14px;
+        font-style:oblique;
+    }
+
+
+}
