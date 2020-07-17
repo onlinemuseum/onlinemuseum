@@ -8,13 +8,21 @@ body{margin:0; padding:0; }
 
 nav p{
     text-align:center;
-        font-size:9.2px;
+        font-size:9.7px;
+        /*changed it from 9.2*/
         padding:5px 0 ;
         letter-spacing:1.2px;
         color:white;
         font-weight:bold;
         text-transform: uppercase;
         text-decoration: underline;;
+}
+
+
+@media only screen and (max-width:550px){
+nav p{
+    font-size:6.55px;}
+
 }
 
 .Carousel{    width:100%;    

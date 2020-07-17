@@ -37,7 +37,9 @@ object{width:100%; margin:0; }
 
 nav p{
     text-align:center;
-        font-size:9.2px;
+        font-size:9.7px;
+        /*changed it from 9.2*/
+   
         padding:5px 0 ;
         letter-spacing:1.2px;
         /*color:rgb(245, 245, 245);*/
@@ -45,6 +47,13 @@ nav p{
         font-weight:bold;
         text-transform: uppercase;
         text-decoration: underline;;
+}
+/*mobile friendly*/
+
+@media only screen and (max-width:550px){
+nav p{
+    font-size:6.55px;}
+
 }
 
 .Carousel{ width:100%; background-image: -webkit-linear-gradient(left, rgb(255, 198, 172), rgb(214, 126, 44)); margin:0; display:inline-block;}
