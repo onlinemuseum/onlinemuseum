@@ -1,0 +1,96 @@
+#CoverImage{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('../Gallery/Horizon1.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:25px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 20px}
+to {background-position:  0 -140px;}
+}
+
+
+@media only screen and (max-width:670px) {
+    #CoverImage{
+        -webkit-animation: backgroundScroll-2 15s linear 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-2 {
+        from {background-position: -10px -90px}
+        to {background-position: -180px -90px;}
+        }
+        
+    
+    }
+    
+    
+
+header{
+    margin-bottom:25px; 
+}
+
+#SubTitle1{text-align:center;
+    font-size:15px;
+    padding:5px 0 ;
+    padding-top:7px;
+    padding-bottom:7px;
+    letter-spacing:2px;
+    /*color:rgb(245, 245, 245);*/
+    color:white;
+    font-style: oblique;
+    margin:7px 0 0 0; color: rgb(199, 132, 44);}
+
+    hr{margin-top:0; color:lightgrey; 
+    padding-bottom:5px; 
+    border-bottom:1px solid grey; 
+    }
+
+.AboutText{
+    width:50%;
+        margin:0 auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:15px;
+}
+.AboutText h2{
+    text-align:center;
+    font-size:14px; 
+    margin:22px;
+    color:rgb(167, 124, 46);
+}
+
+#Linker{
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#LinkerTwitter{color:rgb(90, 90, 190)}
+#LinkerTwitter:hover{color:rgb(51, 51, 214)}
+
+.AboutText a{
+    color:grey;
+    text-decoration:none;
+}
+.AboutText a:hover{
+    color:rgb(95, 85, 85);
+    text-decoration: underline;
+}
+
