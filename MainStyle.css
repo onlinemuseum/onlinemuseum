@@ -99,6 +99,11 @@ nav p{
         display:grid; 
         justify-items: center;;
         justify-content: middle;
+        -moz-user-select: none; 
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none;            
+        user-select: none; 
+        -ms-user-select: none; 
     }   
     nav p{    color:rgb(216, 216, 216);     text-align:center;
         text-decoration:none;;
