@@ -371,7 +371,7 @@ footer a{
 
 @media only screen and (min-width:900px){
     .EntirePage{
-        width:27%;
+        width:37%; /*from 27% = earlier*/
         padding-top:15px;
     }
 
