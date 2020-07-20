@@ -39,7 +39,7 @@ nav p{
     text-align:center;
         font-size:9.7px;
         /*changed it from 9.2*/
-   
+       
         padding:5px 0 ;
         letter-spacing:1.2px;
         /*color:rgb(245, 245, 245);*/
@@ -96,7 +96,6 @@ nav p{
         text-align: center;;
         color:rgb(216, 216, 216); 
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
         display:grid; 
         justify-items: center;;
         justify-content: middle;
@@ -104,22 +103,47 @@ nav p{
     nav p{    color:rgb(216, 216, 216);     text-align:center;
         text-decoration:none;;
     }
-    nav a{text-decoration:none;color:rgb(216, 216, 216); }
-    nav a:hover{color:white; }
-    #Logo{position:relative;}
-    #Logo p{
-        text-align: center;;
-        color:rgb(255, 227, 184); 
-        font-size:16px;
-        text-shadow:1px 1px rgb(77, 77, 77);
-        position:absolute;
-        top:-20px;
-        left:-24px;
+    nav a:focus{ outline:none;
+        -moz-outline-style: none;}
+    nav a{text-decoration:none;
+        color:rgb(216, 216, 216); 
+        outline:0;
+        -moz-outline-style: none;
     }
-    #Logo a{
-        color:rgb(255, 227, 184); }    #Logo{position:relative;}
-     
+    nav a:hover{color:white;
+        outline:none;
+        -moz-outline-style: none; }
+
    
+ #Logo{position:relative;}
+ #Logo p{
+     text-align: center;;
+     color:rgb(255, 227, 184); 
+     font-size:16px;
+     text-shadow:1px 1px rgb(77, 77, 77);
+     position:absolute;
+     top:-20px;
+     left:-24px;
+ }
+ #Logo a{
+     text-shadow:1.5px 1.5px rgb(63, 56, 17);
+
+     color:white; }
+
+ #Logo a span{
+     color:rgb(255, 227, 184); 
+     color:rgb(255, 222, 206); 
+
+
+     /*nice color: rgb(206, 77, 77) */
+ }
+
+@media only screen and (max-width: 600px) {
+    #Logo p{
+        font-size:14px;
+        top:-21.2px;
+    }}
+
     nav #Nav2{    grid-template-columns:1fr 1fr 1fr ;}
     #Uplifting{color:rgb(223, 173, 35);}
     #Uplifting:hover{color:rgb(253, 210, 90); }

@@ -138,8 +138,16 @@ nav div{
 nav p{    color:rgb(216, 216, 216);     text-align:center;
     text-decoration:none;;
 }
-nav a{text-decoration:none;color:rgb(216, 216, 216); }
-nav a:hover{color:white; }
+nav a:focus{ outline:none;
+    -moz-outline-style: none;}
+nav a{text-decoration:none;
+    color:rgb(216, 216, 216); 
+    outline:0;
+    -moz-outline-style: none;
+}
+nav a:hover{color:white;
+    outline:none;
+    -moz-outline-style: none; }
 #Logo{position:relative;}
     #Logo p{
         text-align: center;;

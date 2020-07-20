@@ -36,8 +36,11 @@ img{
   width:100%;
   object-fit: cover;
   margin:0 auto;
-  display:inline-block;
+  display:block;
+  max-height:400px;
+  width:auto;
 }
+
 .GallerySlider {
   margin:0 auto;
 }
@@ -158,16 +161,31 @@ display:none;}
 }
 }
 
+/*Adjust picsize for phones height*/
+@media only screen and (max-width:580px) {
+  img{
+    max-height:200px;
+    max-width:100%;
+  }
+   
+}
+@media only screen and (max-width:780px) {
+img{
+  max-height:200px;
+  max-width:100%;
+}
+}
+
 
 @media only screen and (max-width:700px) {
   .slide{
-    width:50%;
   }
   .button-left {
-    left:120px;  }
+    left:30px;  }
   
-.button-right {  right:120px;
+.button-right {  right:30px;
  }
+
 }
 
 
