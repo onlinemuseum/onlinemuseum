@@ -154,6 +154,10 @@ header{
     object-fit:contain; 
 }
 
+#Colorful{
+    color:rgb(109, 18, 109);
+}
+
 section-1 a{
     text-decoration:contain;; 
     color:black;
