@@ -1,0 +1,41 @@
+img{
+    width:100%;
+
+}
+
+
+
+.PageContainer{
+    width:70%; 
+    margin:0 auto; 
+}
+.PageContainer a{
+    text-decoration: none;;
+}
+
+
+.CartoonGrid{
+    display:grid;
+    width:95%;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:25px;
+}
+
+.CartoonGrid div{
+background:grey;
+border:1px solid black;
+}
+img{
+    width:100%;
+}
+
+
+
+@media only screen and (min-width:970px) {
+    .CartoonGrid{
+    
+    width:65%;
+    }
+    
+}
