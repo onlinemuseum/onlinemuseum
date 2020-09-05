@@ -64,20 +64,17 @@ header{
     
 .GalleryGrid img{
    width:100%;
+    border-radius:9px;
     object-fit: cover;
     display:inline-block;
 }
 
 
 .GalleryGrid a{
-    color:rgb(161, 155, 155);
-    text-decoration: none;;
-
-}
-.GalleryGrid a:hover{
-     color:rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
     font-style:oblique;
     font-size:15.2px;
+    text-decoration: none;;
 }
 
 .GalleryGrid p{
@@ -85,15 +82,24 @@ header{
     margin:3px; 
 }
 
+.GalleryGrid div{
+    width:88.7%; 
+}
+
 .GalleryGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:15px;
     margin:0 auto;
-    width:98%;
+    width:98%;   
+    justify-items: center;;
 }
 
-
+section-1 h2{
+    Margin:17px 0 17px 20px;
+    color:rgb(46, 46, 46); 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  font-weight: 550; font-style:normal; font-size:21.5px;
+}
 @media only screen and (max-width:770px) {
     .ImageGrid{
         grid-template-columns: 1fr;

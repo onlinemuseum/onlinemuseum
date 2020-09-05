@@ -65,7 +65,8 @@ nav p{
 /*NAV NAV NAV*/
     nav{
         display: grid;        
-        grid-template-columns: 12fr 53fr 24fr ;
+        grid-template-columns: 12fr 54fr;;
+
         width:100%;
         grid-gap:10px;
         background-color:rgb(58, 58, 58); 
@@ -117,7 +118,8 @@ nav p{
     }
     nav a:hover{color:white;
         outline:none;
-        -moz-outline-style: none; }
+        -moz-outline-style: none;
+    }
 
    
  #Logo{position:relative;}
@@ -149,9 +151,10 @@ nav p{
         top:-21.2px;
     }}
 
-    nav #Nav2{    grid-template-columns:1fr 1fr 1fr ;}
-    #Uplifting{color:rgb(223, 173, 35);}
-    #Uplifting:hover{color:rgb(253, 210, 90); }
+    nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;}
+    #Uplifting:hover{color:rgb(253, 210, 90);  
+    }
+    #Uplifting{color:rgb(243, 215, 125);}
     #Nav3{    grid-template-columns:1fr 1fr 1fr;}
     
 /*tHUMB THUMB THUMB */

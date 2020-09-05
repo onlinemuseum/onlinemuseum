@@ -35,7 +35,7 @@ object{width:100%; margin:0;}
     nav{
         display: grid;
         
-        grid-template-columns: 12fr 53fr 24fr ;
+        grid-template-columns: 12fr 54fr;;
         width:100%;
         grid-gap:10px;
         background-color:rgb(58, 58, 58); 
@@ -99,10 +99,9 @@ object{width:100%; margin:0;}
         scroll-behavior: auto;
     }
     
-    nav #Nav2{    grid-template-columns:1fr 1fr 1fr ;}
-    #Uplifting{        color:rgb(243, 207, 178) 
-    }
-    #Uplifting:hover{color:rgb(255, 179, 92); }
+    nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;}
+    #Uplifting:hover{color:rgb(253, 210, 90); }
+    #Uplifting{color:rgb(243, 215, 125);}
     #Nav3{    grid-template-columns:1fr 1fr 1fr;}
     
 #Thumb{
@@ -180,6 +179,7 @@ text-transform: lowercase;
 }
 #Sub b{
     color:orange; 
+    
 }
 
 header{text-align:center; padding-top:10px;  }
@@ -188,7 +188,8 @@ header h1{ Margin:0 0 0 0 ;color:rgb(58, 58, 57);
     letter-spacing:4px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
-    
+    -moz-user-select: none;
+    user-select:none;;
     font-family:'Times New Roman', Times, serif
 
 }
@@ -228,7 +229,12 @@ header{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
     /*color:rgb(245, 245, 245);*/
     color:white;
     font-style: oblique;
-    margin:7px 0 0 0; color: rgb(223, 150, 82);}
+    margin:7px 0 0 0; color: rgb(223, 150, 82);
+    -moz-user-select: none;
+    user-select:none;;
+}
+
+
 
     hr{margin-top:0; color:lightgrey; 
     padding-bottom:5px; 
@@ -399,13 +405,15 @@ details a{
           
 .SlidingText marquee{
     margin-top:0px;
+    -moz-user-select: none;
+    user-select:none;;
     opacity:.75;
 }
 
 .SlidingText{
     font-size:15px;
     margin:58px 45px 0 auto;
-    width:30%;
+    width:40%;
     border-right:1px solid red;
 }
 
@@ -438,7 +446,8 @@ details a{
     max-height:300px;
 }
 
-.TopHeader{    position:relative;  margin:0  0 35px -22px;   font-style:oblique; }
+.TopHeader{    position:relative;  margin:0  0 35px -22px;   font-style:oblique; -moz-user-select: none;
+    user-select:none;;}
 .TopHeader>div{    font-size:15px;     letter-spacing:2px; }
     
 .TopHeader span{
