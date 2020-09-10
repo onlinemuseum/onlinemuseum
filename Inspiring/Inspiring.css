@@ -68,16 +68,33 @@ header{
     object-fit: cover;
     display:inline-block;
 }
-
-
-.GalleryGrid a{
+.EntertainmentGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+    grid-row-gap:55px;
+    margin:0 auto;
+    margin-top:45px;
+    justify-items: center;;
+}
+section-1 img{
+    width:100%;   
+    border-radius:9px;
+    object-fit: cover;
+    display:inline-block;
+}
+section-1 iframe{
+    height:100%;
+    border-radius: 7px;
+}
+section-1 a{
     color:rgb(110, 110, 110);
     font-style:oblique;
     font-size:15.2px;
     text-decoration: none;;
 }
 
-.GalleryGrid p{
+section-1 p{
     text-align:center; 
     margin:3px; 
 }
