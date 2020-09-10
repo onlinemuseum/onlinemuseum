@@ -19,6 +19,10 @@ img{width:100%; border-radius:8px; margin:12px 0 5px 0;}
 #SubPic{text-align:center; color:grey; margin:0 0 28px 0;
 font-size:15px;}
 
+#Coloured{
+    color:rgb(168, 17, 17);
+}
+
 #SideStory{
     color:rgb(51, 41, 94);
     font-style:oblique;
