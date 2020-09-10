@@ -127,14 +127,17 @@ h1{text-align:center;
     font-style:oblique;
     color:rgb(219, 219, 219);
     text-shadow:1px 1px black;}
-nav{
-    display: grid;
-    grid-template-columns: 12fr 53fr 24fr ;
+ nav{
+    display: grid;        
+    grid-template-columns: 12fr 54fr;;
+
     width:100%;
     grid-gap:10px;
     background-color:rgb(58, 58, 58); 
     border-top:2px solid rgb(39, 39, 39);   
-}
+    margin-top:-.5px;
+    }
+
 #Uplifting{color:rgb(223, 173, 35);}
 #Uplifting:hover{color:rgb(253, 210, 90); }
 nav div{
@@ -181,9 +184,8 @@ nav a:hover{color:white;
 
      
    
-nav #Nav2{    grid-template-columns:1fr 1fr 1fr ;}
+nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;;}
 #Uplifting{color:rgb(223, 173, 35);}
-#Nav3{    grid-template-columns:1fr 1fr 1fr;}
 
 .EntirePage{
     margin:0 auto; 
