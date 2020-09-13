@@ -190,6 +190,7 @@ nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;;}
 .EntirePage{
     margin:0 auto; 
     width:50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*barely noticeable bg
 .BG{    background:rgba(255, 236, 201, 0.096); }
@@ -309,6 +310,9 @@ summary{
     text-align: center;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor:pointer;
+    outline: none;
+    -moz-user-select: none; 
+    user-select:none;;
 }
 /* To hide the summary button 
 details summary { list-style-type: none; }
@@ -338,7 +342,23 @@ details summary::marker { display: none; }*/
     width:88%; 
     margin:0 auto;
     display:block;
-    
+}
+
+#BetweenImage2{
+    display:block;
+    border-top:2px solid  rgb(21, 79, 165);
+    padding-top:15px;
+
+    width:63%;
+    margin:0 auto;
+    margin-bottom:15px;
+}
+#PicCaption2{
+    color:rgb(12, 12, 104);
+    padding-bottom:20px;
+    border-bottom:2px solid rgb(21, 79, 165);
+    margin-bottom:30px;
+    width:100%;
 }
 section-1 h2{
     font-size:16px;
