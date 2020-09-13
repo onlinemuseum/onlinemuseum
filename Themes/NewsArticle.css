@@ -301,14 +301,53 @@ iframe{
 section-1 img{
     width:100%;
 }
-
+summary{
+    color:rgb(148, 147, 229);
+    text-shadow:.4px .4px rgb(35, 35, 77);
+    font-size:14px;
+    margin: 0 auto;
+    text-align: center;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor:pointer;
+}
+/* To hide the summary button 
+details summary { list-style-type: none; }
+details summary::-webkit-details-marker { display: none; } /
+details summary::marker { display: none; }*/
+.ImageGrid{
+    padding-top:5px;
+    display:grid;
+    width:88%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:30px;
+    grid-column-gap: 25px; 
+    justify-items: center;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+}
+#MediumImg{    width:85%;}
+#LargeImg{width:70%;}
+.ImageGrid img{display: block;margin:0 auto;}
 #FeatureImage{
     width:100%;
     margin:0 auto;
     display:block;
 }
-
+#BetweenImage{
+    width:88%; 
+    margin:0 auto;
+    display:block;
+    
+}
 section-1 h2{
+    font-size:16px;
+    /*color:rgb(206, 169, 127); */
+    color: rgb(221, 155, 67);
+    line-height:7px;;
+}
+#TextTitle{
+    margin-top:30px;
     font-size:16px;
     /*color:rgb(206, 169, 127); */
     color: rgb(221, 155, 67);
