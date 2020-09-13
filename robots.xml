@@ -9,70 +9,79 @@
 
 <url>
   <loc>https://onlinemuseum.net/</loc>
-  <lastmod>2020-07-21T09:33:52+00:00</lastmod>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/index.html</loc>
-  <lastmod>2020-07-21T09:33:52+00:00</lastmod>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/histories/articles</loc>
-  <lastmod>2020-07-21T09:33:52+00:00</lastmod>
+  <loc>https://onlinemuseum.net/themes/pastthemes</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/gallery/gallery</loc>
-  <lastmod>2020-07-21T09:33:52+00:00</lastmod>
+  <loc>https://onlinemuseum.net/inspiring/inspiring</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/magazine/magazine</loc>
-  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
+  <loc>https://onlinemuseum.net/digitalmuseum/virtualrealitygame</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/More/About.html</loc>
-  <lastmod>2020-07-20T09:33:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://onlinemuseum.net/Cartoon/Cartoon.html</loc>
-  <lastmod>2020-07-21T09:33:52+00:00</lastmod>
+  <loc>https://onlinemuseum.net/more/more</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/histories/articles/enzian/gentianspirits</loc>
-  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://onlinemuseum.net/themes/articles/edojapan/themehome</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/gallery/bonsai/bonsaitrees</loc>
-  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://onlinemuseum.net/themes/articles/bullleaping/bullleaping</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/histories/articles/harleydavidson/harleydavidson</loc>
-  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://onlinemuseum.net/themes/articles/harleydavidson/harleydavidson</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/histories/articles/vangogh/vangogh</loc>
-  <lastmod>2020-07-15T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://onlinemuseum.net/inspiring/ukiyo-e/woodblockprints</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/histories/articles/BullLeaping/BullLeaping.html</loc>
-  <lastmod>2020-07-20T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
-</url><url>
-  <loc>https://onlinemuseum.net/histories/gallery/Ukiyo-e/WoodblockPrints.html</loc>
-  <lastmod>2020-07-20T09:33:52+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://onlinemuseum.net/inspiring/bonsai/bonsaitrees</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://onlinemuseum.net/themes/articles/vangogh/vangogh</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/themes/articles/enzian/gentianspirits</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/themes/articles/edojapan/edojapan</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/themes/articles/edojapan/hokusai</loc>
+  <lastmod>2020-09-13T20:35:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 
 </urlset>
