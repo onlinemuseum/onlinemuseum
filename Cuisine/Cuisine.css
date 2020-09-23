@@ -1,0 +1,139 @@
+#CoverImage{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('CuisineBG.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:55px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+section-1 #Working{
+    text-align:center;
+    margin-top:55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*<span>Photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+section-1 #Working b{
+    color:rgb(153, 19, 9); 
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position:0px  50px  }
+to {background-position: 0 -140px  }
+}
+
+
+@media only screen and (max-width:670px) {
+    #CoverImage{
+        -webkit-animation: backgroundScroll-2 15s linear 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-2 {
+        from {background-position: -10px -90px}
+        to {background-position: -180px -90px;}
+        }
+        
+    
+    }
+    
+ #Logo{position:relative;}
+    #Logo p{
+        text-align: center;;
+        color:rgb(255, 227, 184); 
+        font-size:16px;
+        text-shadow:1px 1px rgb(77, 77, 77);
+        position:absolute;
+        top:-20px;
+        left:-24px;
+    }
+    #Logo a{
+        text-shadow:1.5px 1.5px rgb(63, 56, 17);
+
+        color:white; }
+
+    #Logo a span{
+        color:rgb(255, 227, 184); 
+        color:rgb(255, 222, 206); 
+
+
+        /*nice color: rgb(206, 77, 77) */
+    }
+
+header{
+    margin-bottom:25px; 
+}
+
+#SubTitle1{text-align:center;
+    font-size:15px;
+    padding:5px 0 ;
+    padding-top:7px;
+    padding-bottom:7px;
+    letter-spacing:2px;
+    /*color:rgb(245, 245, 245);*/
+    color:white;
+    font-style: oblique;
+    margin:7px 0 0 0; color: rgb(199, 132, 44);}
+
+    hr{margin-top:0; color:lightgrey; 
+    padding-bottom:5px; 
+    border-bottom:1px solid grey; 
+    }
+    
+
+
+.MangaTitles{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+
+}
+
+.MangaTitles h2{
+    font-weight:500;
+    font-size:19px;
+    margin: 0 0 10px 0 ;
+    text-shadow:.5px .5px rgb(69, 174, 182);
+    color:rgb(22, 95, 100);
+}
+
+.MangaTitles #Subber{
+    font-style:oblique;
+    margin:0 ;
+    color:rgb(36, 36, 36);
+}
+.MangaTitles p{
+    color:rgb(36, 36, 36);
+    margin:5px;
+
+}
+
+.MangaTitles a{
+    text-decoration: none;;
+}
+
+.MangaTitles a:hover{
+    color:rgb(29, 192, 204);
+
+}
+.MangaTitles img{
+    width:50%;
+    margin:0 auto;
+    border-radius:15px;
+    border:2.3px solid rgb(173, 31, 26);
+    display:block;
+    margin-bottom:15px;
+}

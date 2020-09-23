@@ -18,11 +18,25 @@ nav p{
         text-decoration: underline;;
 }
 
+@media only screen and (max-width: 600px) {
 
-@media only screen and (max-width:550px){
-nav p{
-    font-size:6.55px;}
+    nav p{
+        font-size:8px;
+        padding:6px 0 ;
 
+    }   
+    #Logo a{
+        font-size:15px;
+      
+    }
+    #Logo{ 
+        top:1px;
+    }
+    nav{
+        grid-template-columns: .6fr 3fr ;
+    }
+
+    
 }
 
 .Carousel{    width:100%;    
@@ -99,7 +113,7 @@ object{width:100%; margin:0;}
         scroll-behavior: auto;
     }
     
-    nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;}
+    nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr}
     #Uplifting:hover{color:rgb(253, 210, 90); }
     #Uplifting{color:rgb(243, 215, 125);}
     #Nav3{    grid-template-columns:1fr 1fr 1fr;}
