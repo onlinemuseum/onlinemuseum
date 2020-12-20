@@ -72,13 +72,12 @@ object{width:100%; margin:0; display:block;
             justify-content: middle;
        
         }   
-        #Nav2>div:hover{
-            transform: scale(1.11);
-        }
-        #Nav3>div:hover{        transform: scale(1.11);
-    
         
-        }
+#Nav2 a:hover{
+    border-bottom:2px solid rgb(241, 172, 81);
+    padding-bottom:5px;
+
+}
         nav p{    color:rgb(216, 216, 216);     text-align:center;
             text-decoration:none;;
         }

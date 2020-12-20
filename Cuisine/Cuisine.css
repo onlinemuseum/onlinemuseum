@@ -4,7 +4,7 @@
     border-bottom:2px solid rgb(82, 24, 14);
     border-bottom:2px solid rgb(231, 186, 60);
     text-align:center;
-    background-image: url('CuisineBG.jpg');
+    background-image: url('CuisineBG2.jpg');
     /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
     background-repeat: repeat;
     background-attachment: fixed;
@@ -17,7 +17,8 @@
     animation: backgroundScroll 15s linear 1;
     animation-fill-mode: forwards;
     border-bottom-left-radius: 11px; 
-    border-bottom-right-radius: 11px;;
+    border-bottom-right-radius: 11px;
+    /*scale:.5 gives nice effect*/
 }
 
 section-1 #Working{
@@ -35,18 +36,19 @@ from {background-position:0px  50px  }
 to {background-position: 0 -140px  }
 }
 
+@media only screen and (min-width:1270px) {
+    #CoverImage{background-size: stretch;
+    padding:41px 0;}
 
+}
 @media only screen and (max-width:670px) {
-    #CoverImage{
-        -webkit-animation: backgroundScroll-2 15s linear 1;
-        animation-fill-mode: forwards;
+ 
+   
+@-webkit-keyframes backgroundScroll {
+    from {background-position:0px  50px  }
+    to {background-position: 0 -140px  }
     }
     
-    @-webkit-keyframes backgroundScroll-2 {
-        from {background-position: -10px -90px}
-        to {background-position: -180px -90px;}
-        }
-        
     
     }
     
@@ -145,7 +147,8 @@ to {background-position: 0 -140px  }
         color:rgb(128, 118, 80); 
         
      }
-    section-1 #SubTitle{color:rgb(221, 53, 47); margin: 4px 0; font-size:17px;;}
+    section-1 #SubTitle3{color:rgb(221, 53, 47); margin: 4px 0; font-size:17px;;}
+    section-1 #SubTitle2{color:rgb(192, 176, 37); margin: 4px 0; font-size:17px;;}
 
     .ImageGrid p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36);
     }
@@ -227,7 +230,6 @@ to {background-position: 0 -140px  }
         ;}
     #ArticleDescription{    grid-area: Feature}
     #ArticleFeatureImage{    grid-area: Description; }
-    .ImageGrid-2 img{    width:100%;; }
     
     }
     
