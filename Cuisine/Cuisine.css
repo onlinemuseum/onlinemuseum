@@ -50,90 +50,217 @@ to {background-position: 0 -140px  }
     
     }
     
- #Logo{position:relative;}
-    #Logo p{
-        text-align: center;;
-        color:rgb(255, 227, 184); 
-        font-size:16px;
-        text-shadow:1px 1px rgb(77, 77, 77);
-        position:absolute;
-        top:-20px;
-        left:-24px;
-    }
-    #Logo a{
-        text-shadow:1.5px 1.5px rgb(63, 56, 17);
-
-        color:white; }
-
-    #Logo a span{
-        color:rgb(255, 227, 184); 
-        color:rgb(255, 222, 206); 
-
-
-        /*nice color: rgb(206, 77, 77) */
-    }
-
-header{
-    margin-bottom:25px; 
-}
-
-#SubTitle1{text-align:center;
-    font-size:15px;
-    padding:5px 0 ;
-    padding-top:7px;
-    padding-bottom:7px;
-    letter-spacing:2px;
-    /*color:rgb(245, 245, 245);*/
-    color:white;
-    font-style: oblique;
-    margin:7px 0 0 0; color: rgb(199, 132, 44);}
-
-    hr{margin-top:0; color:lightgrey; 
-    padding-bottom:5px; 
-    border-bottom:1px solid grey; 
+        header{
+            margin-bottom:25px; 
+            -moz-user-select: none; 
+            -webkit-user-select: none;
+            user-select:none;
+            -ms-user-select: none;;
+        }
+    
+    #SubTitle1{text-align:center;
+        font-size:15px;
+        padding:5px 0 ;
+        padding-top:7px;
+        padding-bottom:7px;
+        letter-spacing:2px;
+        /*color:rgb(245, 245, 245);*/
+        color:white;
+        font-style: oblique;
+        margin:7px 0 0 0; color: rgb(199, 132, 44);}
+    
+        hr{margin-top:0; color:lightgrey; 
+        padding-bottom:5px; 
+        border-bottom:1px solid grey; 
+        }
+        
+    .ImageGrid{
+        display:grid;
+        grid-template-columns:
+        1fr 1.18fr; 
+        margin:0;
+        margin:0 auto; 
+        grid-gap:7.5px; 
+        padding-top:10px;
+        margin-bottom:75px;
+        text-align:left;
     }
     
+    #ArticleDescription{
+        grid-area: Description; 
+    }
+    
+    #ArticleFeatureImage{
+        grid-area: Feature; 
+    }
+    
+    
+    .PageContainer{
+        width:60%; 
+        margin:0 auto; 
+    }
+    .PageContainer a{
+        text-decoration: none;;
+    }
+    
+    .PageContainer2{
+        width:70%; 
+        margin:0 auto; 
+        margin-top:-30px;
+    
+    }
+    .PageContainer2 a{
+        text-decoration: none;;
+    }
+    .PageContainer2 p{
+        text-align: center;
+        color:rgb(255, 11, 11);
+        
+    }
+    
+    
+    .ImageGrid-2{
+        display:grid; 
+        /*grid-template-columns: 1.18fr 1fr; */
+        grid-template-areas:'Description Description Description Description Feature Feature Feature Feature Feature';
+        margin:0;
+        margin:0 auto; 
+        margin-bottom:75px;
+        grid-gap:7.5px; 
+        padding-top:10px;
+        text-align:right;
+    }
+    .ImageGrid-2 h2{display:block; margin:-.5px 0 5px auto; font-size:19px; padding-top:8px;text-align:left; }
+    .ImageGrid-2 p{ margin:0  0 0 auto; font-size:15px; text-align:left;}
+    .ImageGrid-2 img{
+        opacity:.85;
+        width:100%; 
+        margin:0; 
+        object-fit: contain;
+        border-radius:5px; 
+    }
+    
+    
+    .ImageGrid h2{display:block; margin:0px auto 0px 0 ; font-size:19.5px; 
+        color:rgb(128, 118, 80); 
+        
+     }
+    section-1 #SubTitle{color:rgb(221, 53, 47); margin: 4px 0; font-size:17px;;}
 
-
-.MangaTitles{
-    width:80%;
+    .ImageGrid p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36);
+    }
+    
+    .ImageGrid-2 h2{display:block; margin:0 auto 0 0 ; font-size:19px; color:rgb(129, 74, 29); }
+    .ImageGrid-2 p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36); }
+    
+    .EntirePage{
+        border-bottom:1.5px solid rgba(221, 88, 11, 0.692);
+        border-bottom-right-radius:15px;
+        border-bottom-left-radius: 15px;
+    }.ImageGrid-2 img{
+        opacity:.85;
+        width:100%; 
+        margin:0; 
+        border-radius:5px; 
+        object-fit:contain; 
+        vertical-align: middle;
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    object-fit:cover;
     margin:0 auto;
-    text-align:center;
-
-}
-
-.MangaTitles h2{
-    font-weight:500;
-    font-size:19px;
-    margin: 0 0 10px 0 ;
-    text-shadow:.5px .5px rgb(69, 174, 182);
-    color:rgb(22, 95, 100);
-}
-
-.MangaTitles #Subber{
-    font-style:oblique;
-    margin:0 ;
-    color:rgb(36, 36, 36);
-}
-.MangaTitles p{
-    color:rgb(36, 36, 36);
-    margin:5px;
-
-}
-
-.MangaTitles a{
-    text-decoration: none;;
-}
-
-.MangaTitles a:hover{
-    color:rgb(29, 192, 204);
-
-}
-.MangaTitles img{
-    width:50%;
-    margin:0 auto;
-    border-radius:15px;
-    border:2.3px solid rgb(173, 31, 26);
     display:block;
-    margin-bottom:15px;
+    margin-top:-23px;
+    margin-bottom:19px;
+
 }
+    .ImageGrid img{
+        opacity:.85;
+        width:100%; 
+        margin:0; 
+        border-radius:5px; 
+        object-fit:contain; 
+        vertical-align: middle;
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin:0 auto;
+    display:block;
+    margin-top:-23px;
+    margin-bottom:19px;
+
+}
+
+@media only screen and (min-width:770px) {
+    .PageContainer{
+        width:52%;
+    }
+    
+    }
+    
+    #Colorful{
+        color:rgb(109, 18, 109);
+    }
+    
+    section-1 a{
+        text-decoration:contain;; 
+        color:black;
+    }
+    
+    
+    
+    @media only screen and (max-width:770px) {
+        .ImageGrid{
+            grid-template-columns: 1fr;
+        }
+    
+    .PageContainer h2{
+        margin:-3px auto 5px 0 ;
+    }
+    
+    
+    .ImageGrid-2{grid-template-areas: 
+        'Description'
+        'Feature'
+        
+        ;}
+    #ArticleDescription{    grid-area: Feature}
+    #ArticleFeatureImage{    grid-area: Description; }
+    .ImageGrid-2 img{    width:100%;; }
+    
+    }
+    
+    @media only screen and (min-width:1220px) {
+        .PageContainer{
+            width:42%; 
+        }
+        .PageContainer2{
+            width:42%; 
+            
+        }
+    }
+    
+    .ImageGrid-2 #ArticleDescription{
+        margin-left:55px;
+        margin-right:45px;
+    }
+    
+    
+    h3{font-weight:400;}
+    .TopHeader{    position:relative;  margin:0  0 35px -22px; font-weight:400;  font-style:oblique; -moz-user-select: none;
+        user-select:none;;}
+    .TopHeader{  font-size:15px;     letter-spacing:2px; }
+        
+    .TopHeader span{
+        color:rgb(185, 13, 13); 
+    }
+    
+    @media only screen and (max-width:770px) {
+        section-1 img{
+            width:170px; 
+            height:170px;
+        }
+       
+        }
+        

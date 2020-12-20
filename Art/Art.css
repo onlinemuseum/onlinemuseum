@@ -1,0 +1,150 @@
+#CoverImage{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('Horizon1.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:30px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+
+
+@-webkit-keyframes backgroundScroll {
+from {background-position:0px  50px  }
+to {background-position: 0 -140px  }
+}
+
+
+@media only screen and (max-width:670px) {
+    #CoverImage{
+        -webkit-animation: backgroundScroll-2 15s linear 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-2 {
+        from {background-position: -10px -90px}
+        to {background-position: -180px -90px;}
+        }
+        
+    
+    }
+
+    section-1 #Working{
+        text-align:center;
+        margin-top:55px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /*<span>Photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    section-1 #Working b{
+        color:rgb(153, 19, 9); 
+    }
+
+.ArtGrid{
+    display:grid;
+    grid-column-gap:27px;
+    grid-row-gap:31px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+    width:97%;
+}
+
+.ArtGrid a{
+    text-decoration: none;
+}
+.ArtGrid img{
+opacity:.85;d
+-webkit-linear;
+padding-bottom:1.9px;
+}
+.ArtGrid img:hover{
+    opacity:1;
+    background-color:rgb(202, 133, 5);
+    background: linear-gradient(to right, rgb(240, 163, 163), rgb(237, 199, 117));
+}
+
+.ArtGrid p{
+    margin:0 ;
+    text-align: center;
+    color:grey;
+    width:95%;
+    margin:0 auto;
+}
+.ArtGrid b{
+    text-shadow:.5px .5px black;
+    color:rgb(238, 188, 96);
+}
+.ArtGrid img{
+    width:100%;
+    border-radius:5px;
+    display:cover;
+}
+
+ #Logo{position:relative;}
+    #Logo p{
+        text-align: center;;
+        color:rgb(255, 227, 184); 
+        font-size:16px;
+        text-shadow:1px 1px rgb(77, 77, 77);
+        position:absolute;
+        top:-20px;
+        left:-24px;
+    }
+    #Logo a{
+        text-shadow:1.5px 1.5px rgb(63, 56, 17);
+
+        color:white; }
+
+    #Logo a span{
+        color:rgb(255, 227, 184); 
+        color:rgb(255, 222, 206); 
+
+
+        /*nice color: rgb(206, 77, 77) */
+    }
+
+header{
+    margin-bottom:25px; 
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    user-select:none;
+    -ms-user-select: none;;
+}
+
+#SubTitle1{text-align:center;
+    font-size:15px;
+    padding:5px 0 ;
+    padding-top:7px;
+    padding-bottom:7px;
+    letter-spacing:2px;
+    /*color:rgb(245, 245, 245);*/
+    color:white;
+    font-style: oblique;
+    margin:7px 0 0 0; color: rgb(199, 132, 44);}
+
+    hr{margin-top:0; color:lightgrey; 
+    padding-bottom:5px; 
+    border-bottom:1px solid grey; 
+    }
+    
+
+
+@media only screen and (min-width: 1000px) {
+  .ArtGrid{
+      width:62%; 
+  }
+  }
+
+
