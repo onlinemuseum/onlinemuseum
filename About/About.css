@@ -189,3 +189,26 @@ margin-bottom:19px;
     display:block;
     margin-bottom:15px;
 }
+/*Form*/
+.TheForm{
+    margin:0 auto;
+    display:block;
+}
+.TheForm p{
+    text-align: center;
+}
+
+button{
+    border-radius:5px;
+    padding:9px;
+    background-color:rgb(27, 160, 165); 
+    color:rgb(10, 61, 68);
+    font-weight: bold;;
+    border:none;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: ;
+    color:white;;
+}

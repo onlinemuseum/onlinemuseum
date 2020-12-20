@@ -213,7 +213,13 @@ to {background-position: 0 -140px  }
     
     
     
-    @media only screen and (max-width:770px) {
+    
+    .ImageGrid-2 #ArticleDescription{
+        margin-left:55px;
+        margin-right:45px;
+    }
+
+    @media only screen and (max-width:670px) {
         .ImageGrid{
             grid-template-columns: 1fr;
         }
@@ -221,8 +227,10 @@ to {background-position: 0 -140px  }
     .PageContainer h2{
         margin:-3px auto 5px 0 ;
     }
-    
-    
+    .ImageGrid-2 #ArticleDescription{
+        margin-left:0;
+        margin-right:0;
+    }
     .ImageGrid-2{grid-template-areas: 
         'Description'
         'Feature'
@@ -233,6 +241,7 @@ to {background-position: 0 -140px  }
     
     }
     
+    
     @media only screen and (min-width:1220px) {
         .PageContainer{
             width:42%; 
@@ -241,11 +250,6 @@ to {background-position: 0 -140px  }
             width:42%; 
             
         }
-    }
-    
-    .ImageGrid-2 #ArticleDescription{
-        margin-left:55px;
-        margin-right:45px;
     }
     
     
