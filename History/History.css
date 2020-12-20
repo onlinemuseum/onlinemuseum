@@ -186,7 +186,7 @@ section-1 a{
 
 
 
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:670px) {
     .ImageGrid{
         grid-template-columns: 1fr;
     }
