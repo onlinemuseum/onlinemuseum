@@ -190,11 +190,11 @@ margin-bottom:19px;
     margin-bottom:15px;
 }
 /*Form*/
-.TheForm{
+.ContactInfo{
     margin:0 auto;
     display:block;
 }
-.TheForm p{
+.ContactInfo p{
     text-align: center;
 }
 
@@ -211,4 +211,7 @@ button{
 button:hover{
     background-color: ;
     color:white;;
+}
+#Phone{
+    display:none;
 }
