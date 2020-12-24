@@ -38,7 +38,16 @@ to {background-position: 0 -140px  }
 
 @media only screen and (min-width:1270px) {
     #CoverImage{background-size: stretch;
-    padding:41px 0;}
+    padding:41px 0;
+    -webkit-animation: backgroundScroll 6s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    background-image: url('CuisineBG.jpg');}
+    
+@-webkit-keyframes backgroundScroll {
+    from {background-position:0px 40px    }
+    to {background-position: 0 -120px}
+    }
+}
 
 }
 @media only screen and (max-width:670px) {
@@ -174,7 +183,9 @@ to {background-position: 0 -140px  }
     margin:0 auto;
     display:block;
     margin-top:-23px;
-    margin-bottom:19px;
+
+    margin-top:5px;
+    margin-bottom:9px;
 
 }
     .ImageGrid img{
@@ -191,7 +202,9 @@ to {background-position: 0 -140px  }
     margin:0 auto;
     display:block;
     margin-top:-23px;
-    margin-bottom:19px;
+    margin-top:4px;
+
+    margin-bottom:9px;
 
 }
 
@@ -244,10 +257,10 @@ to {background-position: 0 -140px  }
     
     @media only screen and (min-width:1220px) {
         .PageContainer{
-            width:42%; 
+            width:32%; 
         }
         .PageContainer2{
-            width:42%; 
+            width:32%; 
             
         }
     }
