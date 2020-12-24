@@ -563,6 +563,40 @@ object{width:100%; margin:0; display:block;
         border-radius:5px; 
     }
     
+    @media only screen and (max-width:720px) {
+        .ImageGrid{
+            grid-template-columns: 1fr;
+        }
+    
+    .PageContainer h2{
+        margin:-3px auto 5px 0 ;
+    }
+    .ImageGrid-2 #ArticleDescription{
+        margin-left:0;
+        margin-right:0;
+    }
+    .ImageGrid-2{grid-template-areas: 
+        'Description'
+        'Feature'
+        
+        ;}
+    #ArticleDescription{    grid-area: Feature}
+    #ArticleFeatureImage{    grid-area: Description; }
+    
+    header{
+        margin-bottom:45px;
+    }
+    .ImageGrid img{
+        margin-bottom:25px;
+        margin-top:-25px;
+    }
+    .ImageGrid-2 img{
+        margin-bottom:25px;
+        
+        margin-top:-25px;
+    }
+}
+
     .PageContainer{
         width:70%; 
         margin:0 auto; 
@@ -608,13 +642,22 @@ object{width:100%; margin:0; display:block;
             margin:0 auto;
         }
     }
+    @media only screen and (max-height:1020px){
           
     
-    
+    .ImageGrid-2 h2{
+        margin-top:-5px;
+    }
+    .ImageGrid h2{
+        margin-top:-5px;
+
+    }}
     @media only screen and (max-height:720px){
         body{
             height:100vh;
         }
+     
+
         .PageTitle a{writing-mode:vertical-rl; text-orientation:upright; opacity: 0.7; 
              font-size:23px; z-index:-9; letter-spacing:9px; z-index:-1099;
             color:red;text-decoration:none; white-space: nowrap;}

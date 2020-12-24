@@ -244,9 +244,15 @@ nav a{text-decoration:none;
     outline:0;
     -moz-outline-style: none;
 }
+
 nav a:hover{color:white;
     outline:none;
     -moz-outline-style: none; }
+#Nav2 a:hover{
+    border-bottom:2px solid rgb(241, 172, 81);
+    padding-bottom:5px;
+
+}
 #Logo{position:relative;}
     #Logo p{
         text-align: center;;
