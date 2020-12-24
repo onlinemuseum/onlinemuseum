@@ -10,11 +10,11 @@
     background-attachment: fixed;
     background-size: cover;
     font-size: 12px;
-    padding:55px 0 ;
+    padding:32px 0 ;
     font-family: 'Dancing Script', cursive;
-    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation: backgroundScroll 8s linear 1;
     -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 15s linear 1;
+    animation: backgroundScroll 8s linear 1;
     animation-fill-mode: forwards;
     border-bottom-left-radius: 11px; 
     border-bottom-right-radius: 11px;
@@ -32,24 +32,10 @@ section-1 #Working b{
 }
 
 @-webkit-keyframes backgroundScroll {
-from {background-position:0px  50px  }
-to {background-position: 0 -140px  }
+from {background-position:0px 20px  }
+to {background-position: 0 -110px  }
 }
 
-@media only screen and (min-width:1270px) {
-    #CoverImage{background-size: stretch;
-    padding:41px 0;
-    -webkit-animation: backgroundScroll 6s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    background-image: url('CuisineBG.jpg');}
-    
-@-webkit-keyframes backgroundScroll {
-    from {background-position:0px 40px    }
-    to {background-position: 0 -120px}
-    }
-}
-
-}
 @media only screen and (max-width:670px) {
  
    
@@ -158,6 +144,8 @@ to {background-position: 0 -140px  }
      }
     section-1 #SubTitle3{color:rgb(221, 53, 47); margin: 4px 0; font-size:17px;;}
     section-1 #SubTitle2{color:rgb(192, 176, 37); margin: 4px 0; font-size:17px;;}
+    
+    section-1 #SubTitle4{color:rgb(152, 165, 34); text-shadow:.4px .4px brown; margin: 4px 0; font-size:17px;;}
 
     .ImageGrid p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36);
     }
@@ -252,7 +240,20 @@ to {background-position: 0 -140px  }
     #ArticleDescription{    grid-area: Feature}
     #ArticleFeatureImage{    grid-area: Description; }
     
+    header{
+        margin-bottom:45px;
     }
+    .ImageGrid img{
+        margin-bottom:25px;
+        margin-top:-25px;
+    }
+    .ImageGrid-2 img{
+        margin-bottom:25px;
+        
+        margin-top:-25px;
+    }
+}
+
     
     
     @media only screen and (min-width:1220px) {
