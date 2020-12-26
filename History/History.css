@@ -223,9 +223,61 @@ section-1 a{
 h3{font-weight:400;}
 .TopHeader{    position:relative;  margin:0  0 35px -22px; font-weight:400;  font-style:oblique; -moz-user-select: none;
     user-select:none;;}
-.TopHeader{  font-size:15px;     letter-spacing:2px; }
+.TopHeader{  font-size:11.6px;     letter-spacing:2px; }
     
 .TopHeader span{
     color:rgb(185, 13, 13); 
 }
 
+
+.ThemeGrid{
+    margin:20px 0 40px 0;
+    display:grid; 
+    grid-column-gap:10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:87%;
+
+}
+.ThemeGrid div{
+    //*background:black;*/
+}
+
+
+.ThemeGrid h3{
+    text-shadow:.75px .75px rgb(66, 43, 27);
+    font-size:13.5px;
+    text-align: center;
+    letter-spacing: .2px;;
+    color:rgb(238, 188, 96);
+    
+}
+
+.ThemeGrid a{
+    color:white; 
+
+}
+.ThemeGrid a:hover{
+    color:grey;
+    
+}
+.ThemeGrid p{
+    font-size:12px;
+    
+    margin:-11px 0 -25px 0; 
+    transition:.4s ease-in;
+    text-align: center;
+
+}
+.ThemeGrid img{
+    width:100px;
+    height:100px;
+    display:block;
+    margin:0 auto;
+    border-radius:5px; 
+}
+@media only screen and (max-width:620px) {
+    .ThemeGrid{
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
