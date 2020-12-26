@@ -482,6 +482,13 @@ footer a{
     font-style:oblique;
     color:rgb(6, 6, 95);
 }
+#RecipeInstructions2{
+    margin:-20px auto 5px auto;
+    width:85%; 
+    font-size:15px;
+    font-style:oblique;
+    color:rgb(6, 6, 95);
+}
 iframe{
     margin:0 auto;
     min-height:220px;

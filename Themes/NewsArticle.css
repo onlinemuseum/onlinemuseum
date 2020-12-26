@@ -184,9 +184,11 @@ nav a:hover{color:white;
 
      
    
-nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr 1fr;;}
-#Uplifting{color:rgb(223, 173, 35);}
-
+nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr;;}
+#Uplifting:hover{color:rgb(253, 210, 90);  
+}
+#Uplifting{color:rgb(243, 225, 166); 
+}
 .EntirePage{
     margin:0 auto; 
     width:50%;
