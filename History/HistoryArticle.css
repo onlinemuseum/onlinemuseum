@@ -103,7 +103,11 @@ nav p{
     from {background-position: 0 0;}
     to {background-position: 0 -50px ;}
 }
+#Nav2 a:hover{
+    border-bottom:2px solid rgb(241, 172, 81);
+    padding-bottom:5px;
 
+}
 iframe{
     margin:0 auto;
     min-height:220px;

@@ -254,6 +254,10 @@ h3{font-weight:400;}
 
 .ThemeGrid a{
     color:white; 
+    outline:none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;;
 
 }
 .ThemeGrid a:hover{
