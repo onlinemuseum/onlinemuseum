@@ -444,15 +444,17 @@ footer a{
 
 ::-webkit-scrollbar {
     display:none;}
+@media only screen and (max-width:550px){
 
+    section-1 h2{
+        line-height:18px;
+    }}
 @media only screen and (min-width:900px){
     .EntirePage{
         width:37%; /*from 27% = earlier*/
         padding-top:15px;
     }
-section-1 h2{
-    line-height:18px;
-}
+
 
 
     section-1{
