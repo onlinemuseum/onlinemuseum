@@ -32,6 +32,7 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 img{
   width:100%;
   object-fit: cover;
@@ -114,6 +115,14 @@ img{
 }
 
 
+iframe{
+  margin:0 auto;
+  min-height:320px;
+  min-width:520px;
+  display:block;
+  border-radius:5px;
+}
+
 @media only screen and (max-width:580px) {
   .slide{
     width:50%;
@@ -124,6 +133,9 @@ img{
 .button-right {  
   right:15px;
  }
+iframe{
+  min-height:200px;
+  min-width:290px;}
 }
 
 @media only screen and (max-width:570px) {

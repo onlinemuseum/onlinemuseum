@@ -20,7 +20,7 @@ img{width:100%; border-radius:8px; margin:12px 0 5px 0;}
 font-size:15px;}
 
 #Coloured{
-    color:rgb(168, 17, 17);
+    color:rgb(128, 14, 14);
 }
 
 #SideStory{
@@ -36,6 +36,16 @@ font-size:15px;}
     width:83%;
     display: block;
 }
+
+#SideStory3{
+    color:rgb(187, 25, 14);
+    text-shadow:.4px .4px black;
+    font-style:oblique;
+    margin:0 auto;
+    width:83%;
+    display: block;
+}
+
 
 .TextBox b{
  color:rgb(83, 31, 72);
