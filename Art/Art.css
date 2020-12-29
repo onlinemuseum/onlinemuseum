@@ -147,4 +147,14 @@ header{
   }
   }
 
+  @media only screen and (max-width: 1000px) {
+    .ArtGrid{
 
+  grid-template-columns: 1fr 1fr ; }
+  .ArtGrid div{
+      width:95%; 
+      margin:0 auto; 
+      display:block;
+  }
+
+  }

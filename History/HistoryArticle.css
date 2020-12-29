@@ -104,7 +104,11 @@ nav p{
     to {background-position: 0 -50px ;}
 }
 
-
+iframe{
+    margin:0 auto;
+    min-height:220px;
+    display:block;
+}
 #Thumb{
     color:#fff;
     opacity:.72;
