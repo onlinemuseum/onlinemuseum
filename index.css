@@ -91,7 +91,7 @@ object{width:100%; margin:0; display:block;
         }
         #Logo a{
             text-shadow:1.5px 1.5px rgb(63, 56, 17);
-    
+            outline:none;
             color:white; }
     
         #Logo a span{
@@ -107,7 +107,10 @@ object{width:100%; margin:0; display:block;
             scrollbar-width: thin;
             scroll-behavior: auto;
         }
-        
+        nav a{
+            outline:none;
+
+        }
         nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr}
         #Uplifting:hover{color:rgb(253, 210, 90); }
         #Uplifting{color:rgb(243, 215, 125);}

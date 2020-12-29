@@ -282,6 +282,17 @@ h3{font-weight:400;}
 @media only screen and (max-width:620px) {
     .ThemeGrid{
         display:grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:45px;
+    }
+
+    
+    .ThemeGrid a{
+        color:rgb(153, 67, 67);
+        outline:none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;;
+    
     }
 }

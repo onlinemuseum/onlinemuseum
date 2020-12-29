@@ -92,6 +92,10 @@ padding-bottom:none;
     padding-bottom:5px;
 
 }
+nav a{
+
+outline:none;}
+
     nav div{
         font-size:14.5px;
         text-align: center;;
