@@ -2,10 +2,16 @@
 object{width:100%; margin:0; display:block; 
     max-height:39px;
     } 
-    
+    img{user-select:none;
+        -moz-user-select: none;
+        -webkit-user-select: none;}
     body{margin:0; padding:0; }
-    
-    
+    h2{user-select:none;
+        -moz-user-select: none;
+        -webkit-user-select: none;}
+    p{user-select:none;
+        -moz-user-select: none;
+        -webkit-user-select: none;}
     nav p{
         text-align:center;
             font-size:9.7px;
@@ -68,7 +74,7 @@ object{width:100%; margin:0; display:block;
             justify-content: middle;
        
         }   
-        
+
 #Nav2 a:hover{
     border-bottom:2px solid rgb(241, 172, 81);
     padding-bottom:5px;
