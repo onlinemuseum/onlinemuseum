@@ -10,11 +10,11 @@
     background-attachment: fixed;
     background-size: cover;
     font-size: 12px;
-    padding:25px 0 ;
+    padding:27px 0 ;
     font-family: 'Dancing Script', cursive;
-    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation: backgroundScroll 12s linear 1;
     -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 15s linear 1;
+    animation: backgroundScroll 12s linear 1;
     animation-fill-mode: forwards;
     border-bottom-left-radius: 11px; 
     border-bottom-right-radius: 11px;;
@@ -22,8 +22,8 @@
 
 
 @-webkit-keyframes backgroundScroll {
-from {background-position: 0 20px}
-to {background-position:  0 -140px;}
+from {background-position: 0 -50px}
+to {background-position:  0 -250px;}
 }
 
 

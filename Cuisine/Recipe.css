@@ -165,14 +165,14 @@ font-size:15px;}
 .TextBox b{
  color:rgb(83, 31, 72);
 }
-
+/*
 .TextBox li{
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(31, 28, 28); 
-    /* love this color   rgb(58, 58, 58); */
+    /* love this color   rgb(58, 58, 58); 
 
-}
+}*/
 
 .TextBox ol{
     padding-left:55px;
@@ -313,7 +313,7 @@ section-1 p a:hover{ color:rgb(20, 102, 102);
 section-1 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(31, 28, 28); 
-    /* love this color   rgb(58, 58, 58); */
+    /* love this color   rgb(58, 58, 58); and this  */
 }
 /*section-1 .TextBox{   min-height:370px; background-image:-webkit-linear-gradient(bottom, orange, white, white, white) }*/
 section-1 .TextBox{ 
@@ -482,6 +482,7 @@ footer a{
     font-style:oblique;
     color:rgb(6, 6, 95);
 }
+
 #RecipeInstructions2{
     margin:-20px auto 5px auto;
     width:85%; 
@@ -489,11 +490,20 @@ footer a{
     font-style:oblique;
     color:rgb(6, 6, 95);
 }
+
+
+#RecipeInstructions3 li{
+    color:rgb(110, 13, 17);
+    text-shadow:.4px .4px rgb(145, 32, 32);
+   
+}
+
 iframe{
     margin:0 auto;
     min-height:220px;
     display:block;
 }
+
 #RecipeWeight{
     text-shadow:.5px .5px black;
     color:rgb(184, 17, 128);
