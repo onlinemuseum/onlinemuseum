@@ -376,6 +376,7 @@ section-1 h2{
     color: rgb(221, 155, 67);
     line-height:7px;;
 }
+
 #TextTitle{
     margin-top:30px;
     font-size:16px;
@@ -449,6 +450,10 @@ footer a{
         width:37%; /*from 27% = earlier*/
         padding-top:15px;
     }
+section-1 h2{
+    line-height:18px;
+}
+
 
     section-1{
         line-height:25px;
