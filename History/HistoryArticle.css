@@ -283,8 +283,17 @@ iframe{
 
 #SmallerImg{
     outline:none;
+    
     text-decoration: none;;
 }
+#SmallerPic2{
+    width:55%; 
+    margin:0 auto;
+    display:block;
+    margin-bottom:15px;
+    margin-top:25px;
+}
+
 #SmallerImg:hover{
     text-decoration: underline
 
