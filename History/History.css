@@ -278,6 +278,7 @@ h3{font-weight:400;}
     display:block;
     margin:0 auto;
     border-radius:5px; 
+    object-fit:cover;
 }
 @media only screen and (max-width:620px) {
     .ThemeGrid{
