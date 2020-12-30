@@ -156,6 +156,7 @@ h1{text-align:center;
     margin-top:-.5px;
     }
 
+
 #Uplifting{color:rgb(223, 173, 35);}
 #Uplifting:hover{color:rgb(253, 210, 90); }
 nav div{
@@ -457,7 +458,14 @@ footer a{
 .box{display: none;
     width: 100%;
 }
-
+.PictureGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;;
+    grid-gap:15px;
+}
+.PictureGrid img{width:100%;
+    border:2px solid rgb(109, 216, 235);
+}
 
 
 ::-webkit-scrollbar {
@@ -493,3 +501,5 @@ footer a{
 
     }
 }
+
+
