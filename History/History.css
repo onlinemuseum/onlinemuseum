@@ -125,6 +125,11 @@ to {background-position:  0 -250px;}
 }
 .PageContainer2 a{
     text-decoration: none;;
+    color:rgb(255, 11, 11);
+
+}
+.PageContainer2 a:hover{
+    color:rgb(104, 18, 18);
 }
 .PageContainer2 p{
     text-align: center;
