@@ -502,9 +502,9 @@ footer a{
     }
 }
 
-a{
+.EntirePage a{
 text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
-p a:hover{ color:rgb(20, 102, 102);
+.EntirePage p a:hover{ color:rgb(20, 102, 102);
    
     border-bottom:.35px solid rgb(218, 153, 13); 
 }
