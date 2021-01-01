@@ -234,10 +234,18 @@ hr{margin-top:15px; }
 
 
 section-1 p a{text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
+
 section-1 p a:hover{ color:rgb(20, 102, 102);
    
     border-bottom:.35px solid rgb(218, 153, 13); 
 }
+
+.EntirePage a{
+    text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
+    .EntirePag p a:hover{ color:rgb(20, 102, 102);
+       
+        border-bottom:.35px solid rgb(218, 153, 13); 
+    }
 section-1 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(31, 28, 28); 
@@ -500,11 +508,4 @@ footer a{
         line-height:25px;
 
     }
-}
-
-.EntirePage a{
-text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
-.EntirePage p a:hover{ color:rgb(20, 102, 102);
-   
-    border-bottom:.35px solid rgb(218, 153, 13); 
 }
