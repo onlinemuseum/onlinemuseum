@@ -115,6 +115,15 @@ section-1 p{
     -moz-user-select: none;
     -ms-user-select: none;
 }
+@media only screen and (max-width:570px) {
+    section-1 p{max-width:80%;} 
+} 
+@media only screen and (min-width:970px) {
+    section-1 p{max-width:28%;} 
+
+}
+
+
 section-1 h2{    user-select:none;
     -moz-user-select: none;
     -ms-user-select: none;
