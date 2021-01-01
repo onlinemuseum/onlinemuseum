@@ -106,13 +106,22 @@ to {background-position: 0 -110px  }
         margin-top:-30px;
     
     }
-    .PageContainer2 a{
+    .PageContainer2 a b{
+        color:rgb(209, 30, 30);
         text-decoration: none;;
     }
     .PageContainer2 p{
         text-align: center;
         color:rgb(255, 11, 11);
         
+    }
+    
+    @media only screen and (min-width:1220px) {
+   
+        .PageContainer2{
+            width:42%; 
+            
+        }
     }
     
     
