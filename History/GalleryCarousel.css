@@ -29,6 +29,30 @@
   color:rgb(248, 1, 125);
 }
 
+iframe{
+  margin:0 auto;
+  min-height:320px;
+  min-width:520px;
+  display:block;
+  border-radius:5px;
+}
+
+@media only screen and (max-width:580px) {
+  .slide{
+    width:50%;
+  }
+  .button-left {
+    left:15px;  }
+  
+.button-right {  
+  right:15px;
+ }
+iframe{
+  min-height:200px;
+  min-width:290px;}
+}
+
+iframe
 .GallerySlider a:hover{
   text-decoration: underline;;
 }
