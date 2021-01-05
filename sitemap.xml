@@ -5,158 +5,243 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-<!--https://www.xml-sitemaps.com/-->
+
 
 <url>
   <loc>https://onlinemuseum.net/</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/index.html</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/history/history</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/art</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/cuisine/cuisine</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/about/about</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/ukiyo-e/woodblockprints</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/harleydavidson/harleydavidson</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://onlinemuseum.net/art/impressionism/impressionism</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://onlinemuseum.net/art/hiroshige/hiroshige</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/motorcycles/motorcycles</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/biblicalpaintings/biblicalpaintings</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/art/bonsai/bonsaitrees</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/nativeamerica/greatsiouxwar</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/vangogh/vangogh</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/impressionism/impressionism</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/edojapan/edojapan</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/hiroshige/hiroshige</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/art/michelangelo/michelangelo</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/heracles/heracles</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/edojapan/themehome</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/vangogh/galleryofvangogh</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/motorcycles/history-of-harley-davidson/harleydavidson</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/motorcycles/gallery-of-motorcycle-brands/motorcyclebrands</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/motorcycles/series-and-movies-about-motorcycles/series-about-motorcycles</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/edojapan/themehome</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/vangogh/vangoghhome</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/nativeamerica/nativeamerica</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/bayern/bayernhome</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/ancienthistory/ancienthistoryhome</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/coldwar/cold-war-home</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/verism/verism</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/art/vangogh/galleryofvangogh</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/bonsai/bonsaitrees</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/art/heracles/heracles</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/coldwarart/coldwarpropaganda-art</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/art/curtis/edwardcurtis</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/art/michelangelo/michelangelo</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/cuisine/buddhistcuisine/buddhistcuisine</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/cuisine/carpaccio/carpaccio</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/pastthemes</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/cuisine/beefjerky/nativeamericanjerky</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/inspiring/inspiring</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/cuisine/frybread/frybread</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/more/more</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/cuisine/hamburger/hamburger-recipe</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/edojapan/hokusai</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/edojapan/edojapan</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/virtualtour/tour</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/edojapan/hokusai/hokusai</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/travel/culturaltrip</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/edojapan/sakoku/tokugawajapan</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/enzian/gentianspirits</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/art/hokusai/hokusaigallery</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://onlinemuseum.net/themes/articles/bullleaping/bullleaping</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
+  <loc>https://onlinemuseum.net/history/vangogh/vangogh.html</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
   <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/bayern/almhuette/german-alpine-huts</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/bayern/gentianspirits</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/art/bayern/bavarianart</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/ancienthistory/bullleaping</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/ancienthistory/moviesaboutancientgreece</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/coldwar/did-cold-war-start-in-world-war-2/origins-of-cold-war</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/coldwar/cold-war-visual-history/the-cold-war-in-photographs</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/coldwar/chess/coldwar-chess-match</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://onlinemuseum.net/history/edojapan/hokusai/hokusaigallery</loc>
+  <lastmod>2021-01-05T08:03:26+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
-<url>
-  <loc>https://onlinemuseum.net/history/motorcycles/series-and-movies-about-motorcycles/series-about-motorcycles</loc>
-  <lastmod>2020-12-24T17:29:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
 
 </urlset>
