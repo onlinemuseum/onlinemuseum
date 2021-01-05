@@ -198,7 +198,9 @@ section-2 img{
     float:left;
     object-fit: cover;
 }
-
+a{
+    outline: none;;
+}
 .PageContainer2 a b{
     color:rgb(126, 23, 23);
     text-decoration: none;;
