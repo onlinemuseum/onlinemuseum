@@ -212,6 +212,10 @@ section-2 img{
     color:black;
     text-decoration: none;;
 }
+.PageContainer2 a:hover{
+    text-shadow:.5px .5px rgb(209, 180, 127);
+
+}
 
 @media only screen and (min-width:1480px) {
 .TopHeader{
@@ -221,6 +225,7 @@ section-2 img{
     .PageContainer2{
         width:650px;
     }
+   
         .PageContainer2 div{
             padding-bottom:25px;
             margin-left:55px;
