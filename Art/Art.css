@@ -158,3 +158,91 @@ header{
   }
 
   }
+  
+      
+  h3{font-weight:400;}
+  .TopHeader{    position:relative;  margin:0  0 35px -22px; font-weight:400;  font-style:oblique; -moz-user-select: none;
+      user-select:none;;}
+  .TopHeader{  font-size:15px;     letter-spacing:2px; }
+      
+  .TopHeader span{
+      color:rgb(185, 13, 13); 
+  }
+
+      
+  @media only screen and (min-width:1220px) {
+ 
+    .PageContainer2{
+        width:42%; 
+        
+    }
+}
+.PageContainer2{
+    width:50%; 
+    width:380px;
+    margin:0 auto; 
+    padding-left:20px;
+    margin-top:-30px;
+
+}
+.MoreGrid div{
+    margin:0 auto;
+    display:block;
+}
+
+section-2 img{
+    width:25%; 
+    max-height:70px;
+    border-radius:5px;
+    margin-right:9px;
+    float:left;
+    object-fit: cover;
+}
+
+.PageContainer2 a b{
+    color:rgb(126, 23, 23);
+    text-decoration: none;;
+}
+.PageContainer2 p{
+    text-align:left;
+    color:rgb(207, 71, 71);
+    
+}
+.PageContainer2 a {
+    color:black;
+    text-decoration: none;;
+}
+
+@media only screen and (min-width:1480px) {
+.TopHeader{
+    margin-top:35px;
+    margin-bottom:-20px;
+}
+    .PageContainer2{
+        width:650px;
+    }
+        .PageContainer2 div{
+            padding-bottom:25px;
+            margin-left:55px;
+
+        }
+    
+section-2 img{
+    width:18%; 
+    max-height:90px;
+}
+
+    }
+
+
+@media only screen and (max-width:550px) {
+    .TopHeader{
+    margin-left:-5px;
+    }
+    .PageContainer2 {
+
+    width:310px;
+}
+
+ 
+}
