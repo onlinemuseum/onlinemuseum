@@ -99,7 +99,9 @@ to {background-position: 0 -110px  }
     .PageContainer a{
         text-decoration: none;;
     }
-    
+    a{
+        outline:none;
+    }
     .PageContainer2{
         width:70%; 
         margin:0 auto; 
@@ -110,10 +112,16 @@ to {background-position: 0 -110px  }
         color:rgb(209, 30, 30);
         text-decoration: none;;
     }
+ 
     .PageContainer2 p{
         text-align: center;
         color:rgb(255, 11, 11);
         
+    }
+
+    .PageContainer2 a:hover{
+        color:rgb(243, 151, 75);
+        text-shadow:.4px .4px rgb(189, 157, 157);
     }
     
     @media only screen and (min-width:1220px) {
