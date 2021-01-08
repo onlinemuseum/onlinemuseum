@@ -598,10 +598,10 @@ object{width:100%; margin:0; display:block;
     .ImageGrid img{
         margin-bottom:25px;
         margin-top:-25px;
+
     }
     .ImageGrid-2 img{
         margin-bottom:25px;
-        
         margin-top:-25px;
     }
 }
@@ -620,7 +620,7 @@ object{width:100%; margin:0; display:block;
     }
     
     .ImageGrid-2 h2{display:block; margin:0 auto 5px 0 ; font-size:19px; padding-top:8px; color:rgb(129, 74, 29); }
-    .ImageGrid-2 p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36); }
+    .ImageGrid-2 p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36); padding-right:2px;}
     
     .EntirePage{
         border-bottom:1.5px solid rgba(221, 88, 11, 0.692);
@@ -632,7 +632,9 @@ object{width:100%; margin:0; display:block;
         width:100%; 
         margin:0; 
         border-radius:5px; 
-        object-fit:contain; 
+        object-fit:cover;
+        max-height:155px;
+
     }
     
     section-1 a{
