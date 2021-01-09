@@ -710,7 +710,7 @@ object{width:100%; margin:0; display:block;
 
     @media only screen and (min-width:1320px){
         .ImageGrid img{
-        max-height:240px;
+        max-height:220px;
             max-width:100%;
 
         }
