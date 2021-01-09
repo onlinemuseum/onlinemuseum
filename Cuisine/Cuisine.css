@@ -101,12 +101,17 @@ to {background-position: 0 -110px  }
     }
     a{
         outline:none;
+        
     }
     .PageContainer2{
-        width:70%; 
+        width:75%; 
+        font-size:15px;
         margin:0 auto; 
         margin-top:-30px;
     
+    }
+    .PageContainer2 a{
+        color:rgb(70, 53, 53);
     }
     .PageContainer2 a b{
         color:rgb(209, 30, 30);
@@ -120,7 +125,7 @@ to {background-position: 0 -110px  }
     }
 
     .PageContainer2 a:hover{
-        color:rgb(243, 151, 75);
+        color:rgb(235, 153, 85);
         text-shadow:.4px .4px rgb(189, 157, 157);
     }
     
@@ -278,11 +283,20 @@ to {background-position: 0 -110px  }
             width:32%; 
         }
         .PageContainer2{
-            width:32%; 
+            width:42%; 
             
         }
     }
-    
+    @media only screen and (max-width:550px) {
+        .PageContainer{
+            width:58%; 
+        }
+        .PageContainer2{
+            width:92%; 
+            font-size:15px;
+            
+        }
+    }
     
     h3{font-weight:400;}
     .TopHeader{    position:relative;  margin:0  0 35px -22px; font-weight:400;  font-style:oblique; -moz-user-select: none;
