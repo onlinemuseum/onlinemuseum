@@ -315,3 +315,7 @@ to {background-position: 0 -110px  }
        
         }
         
+
+        object{width:100%; margin:0; display:block; 
+            max-height:39px;
+            } 
