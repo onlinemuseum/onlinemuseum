@@ -46,8 +46,22 @@ nav p{
         font-weight:bold;
         text-transform: uppercase;
         text-decoration: underline;;
-}
+}/*added*/
+@media only screen and (max-width: 600px) {
+    
+    nav p{
+        font-size:8px;
+        padding:6px 0 ;
+    }  
 
+         
+    #Logo a{        font-size:12.5px;    }
+    #Logo{        left:3px; top:-3px;}
+        nav{
+            grid-template-columns: .6fr 3fr ;
+        }
+    
+  } 
 .Carousel{ width:100%; background-image: -webkit-linear-gradient(left, rgb(255, 198, 172), rgb(214, 126, 44)); margin:0; display:inline-block;}
 
 .Carousel span{
