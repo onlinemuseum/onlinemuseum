@@ -636,7 +636,7 @@ object{width:100%; margin:0; display:block;
         max-height:155px;
 
     }
-    
+
     section-1 a{
         text-decoration:contain;; 
         color:black;
@@ -707,5 +707,25 @@ object{width:100%; margin:0; display:block;
              font-size:17px;
          }
         }
+
+    @media only screen and (min-width:1320px){
+        .ImageGrid img{
+        max-height:240px;
+            max-width:100%;
+
+        }
+        .ImageGrid-2 img{
+            max-width:78%;
+            
+        }
+        .ImageGrid-2 p{
+            padding:0;
+            }
      
+        .PageContainer{
+            width:70%;
+        }
+
+
+    }
           
