@@ -67,7 +67,10 @@ font-size:15px;}
     position: absolute;
     top:0;
 }
+object{width:100%; margin:0; display:block; 
+    max-height:39px;
 
+    } 
 object{width:100%; margin:0; }
 
 nav p{
