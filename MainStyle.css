@@ -59,7 +59,6 @@ nav p{
     #Logo{        left:3px; top:-3px;}
         nav{
             grid-template-columns: .6fr 3fr ;
-            padding-left:2px;
             /*grid-template-columns: .6fr 3fr ;
             */
         }
