@@ -108,7 +108,7 @@ section-1 p{
     text-align:center; 
     margin:3px; 
     margin:0 auto;
-    max-width:40%;
+    max-width:65%;
     color:rgba(201, 11, 11, 0.856);
     text-shadow:.4px .4px rgba(56, 4, 4, 0.658);
     user-select:none;
@@ -119,7 +119,7 @@ section-1 p{
     section-1 p{max-width:80%;} 
 } 
 @media only screen and (min-width:970px) {
-    section-1 p{max-width:28%;} 
+    section-1 p{max-width:38%;} 
 
 }
 
