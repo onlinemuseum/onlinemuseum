@@ -524,12 +524,15 @@ footer a{
 
 .RoundGrid{
   display:grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   position:relative;
     width:105%;
     margin: 0 auto; 
     margin-left:-15px;
-
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none;;
 }
 
 .RoundGrid a{
@@ -537,6 +540,10 @@ footer a{
     color:grey; 
     ;
 
+}
+
+.RoundGrid a:hover{
+    color:orange;
 }
 
 .RoundGrid p{
@@ -553,6 +560,7 @@ footer a{
     height: 57px;
     border-radius: 50%;
     object-fit:cover;
+
     margin:0 auto;
     display:block;
     margin-bottom:19px;
@@ -565,4 +573,13 @@ footer a{
     font-style:oblique;
     text-align:right;
 
+}
+.LeftPicture{
+    position:relative;
+}
+
+section-1 #RoundImage{
+    position:absolute;
+    left:-100px;
+    top:50px;
 }
