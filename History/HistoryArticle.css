@@ -583,3 +583,45 @@ section-1 #RoundImage{
     left:-100px;
     top:50px;
 }
+
+
+@media only screen and (max-width:550px){
+
+
+    .RoundGrid{
+        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-gap:2px;
+    }
+        #RoundImage{
+            vertical-align: middle;
+            width: 47px;
+            height: 47px;
+
+    }
+
+    section-1 #RoundImage{
+        display:none;
+    }
+
+}
+
+/*@media only screen and (min-width:1850px){section-1 #RoundImage{display:none;}}*/
+
+
+@media only screen and (min-width:1050px){
+    section-1 #RoundImage{
+        position:absolute;
+        left:-100px;
+        top:20px;
+    }
+
+ 
+    
+}
+@media only screen and (min-width:1450px){
+.RoundGrid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr            1fr 1fr  1fr 1fr 1fr ;
+    grid-gap:5px;
+    margin: 0 auto; 
+    margin-left:-20px;
+}}
