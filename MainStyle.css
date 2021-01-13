@@ -89,14 +89,15 @@ nav p{
 
 
 @media only screen and (max-width: 600px) {
-    nav p{
-        font-size:8px;
+    nav p{/*changes made here to recover mobile friendliness - see index for what exactly*/
+        font-size:7.5px;
         padding:6px 0 ;
     }   
     #Logo p{     font-size:12.5px;   }
     #Logo a{        font-size:12.5px;    }
-    #Logo{        left:3px; top:-3px;}
-    nav{grid-template-columns: .6fr 3fr ;}
+    #Logo{        left:-3.5px; top:-4px;}
+    nav{grid-template-columns: .75fr 3fr; 
+        grid-gap:5px; ;}
    /*Possible for nice mobile feat  #CurrentNav{
     padding-bottom:15px;
     border-bottom:2.1px solid rgb(241, 172, 81);
