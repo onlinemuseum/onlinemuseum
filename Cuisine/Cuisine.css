@@ -164,10 +164,12 @@ to {background-position: 0 -110px  }
         color:rgb(128, 118, 80); 
         
      }
+    
     section-1 #SubTitle3{color:rgb(221, 53, 47); margin: 4px 0; font-size:17px;;}
     section-1 #SubTitle2{color:rgb(192, 176, 37); margin: 4px 0; font-size:17px;;}
     
     section-1 #SubTitle4{color:rgb(152, 165, 34); text-shadow:.4px .4px brown; margin: 4px 0; font-size:17px;;}
+    section-1 #SubTitle5{color:rgb(32, 74, 112); margin: 4px 0; font-size:17px;;}
 
     .ImageGrid p{ margin:0 auto  0 0 ; font-size:15px; color:rgb(36, 36, 36);
     }
