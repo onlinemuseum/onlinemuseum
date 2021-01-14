@@ -626,7 +626,6 @@ section-1 #RoundImage{
     margin: 0 auto; 
     margin-left:-20px;
 }}
-=======
 
 header b{
     color:rgb(144, 24, 24); 
@@ -644,19 +643,29 @@ h2 span{
 }
 .GalleryGrid{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-gap:35px;
+    grid-template-columns:1fr;
     margin:0 auto; 
-    width:80%;
+    grid-gap:15px;
+    width:90%;
 }
 .GalleryGrid img{
     border-radius:5px;
+    width:100%;
 }
 @media only screen and (max-width:550px){
     .GalleryGrid{
     grid-template-columns:1fr ;
 
     }
+
+}
+@media only screen and (min-width:1250px){
+
+#ChangingPicture{
+    width:75%; 
+    margin: 0 auto; 
+    display:block;
+}
 
 }
 /*
@@ -667,4 +676,3 @@ maybe webkit linear gradient from bot orange
 
 on fullframe 
 -> sidebar with all the headings
->>>>>>> Stashed changes
