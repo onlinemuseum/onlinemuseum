@@ -574,6 +574,7 @@ footer a{
     text-align:right;
 
 }
+<<<<<<< Updated upstream
 .LeftPicture{
     position:relative;
 }
@@ -625,3 +626,45 @@ section-1 #RoundImage{
     margin: 0 auto; 
     margin-left:-20px;
 }}
+=======
+
+header b{
+    color:rgb(144, 24, 24); 
+    font-weight:normal;
+}
+
+section-1 u{
+    text-decoration: none;
+    text-shadow:.5px .5px rgb(226, 152, 73);
+}
+
+h2 span{
+    color:rgb(142, 142, 142);
+  
+}
+.GalleryGrid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:35px;
+    margin:0 auto; 
+    width:80%;
+}
+.GalleryGrid img{
+    border-radius:5px;
+}
+@media only screen and (max-width:550px){
+    .GalleryGrid{
+    grid-template-columns:1fr ;
+
+    }
+
+}
+/*
+wechat bottom fixed 
+-> orange headings (3 or 4) 
+white with maybe gapborders of orange 
+maybe webkit linear gradient from bot orange
+
+on fullframe 
+-> sidebar with all the headings
+>>>>>>> Stashed changes
