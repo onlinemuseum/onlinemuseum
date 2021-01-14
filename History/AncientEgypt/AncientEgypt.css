@@ -1,29 +1,3 @@
-#CoverImageAncientEgypt{
-    color:#fff;
-    opacity:.82;
-    border-bottom:2px solid rgb(82, 24, 14);
-    border-bottom:2px solid rgb(231, 186, 60);
-    text-align:center;
-    background-image: url('Hieroglyphs.jpg');
-    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 12px;
-    padding:25px 0 ;
-    font-family: 'Dancing Script', cursive;
-    -webkit-animation: backgroundScroll 14s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 14s linear 1;
-    animation-fill-mode: forwards;
-    border-bottom-left-radius: 11px; 
-    border-bottom-right-radius: 11px;;
-}
-
-@-webkit-keyframes backgroundScroll {
-from {background-position: 0 -30px;}
-to {background-position:  0 -270px }
-}
 
     
     
@@ -39,7 +13,7 @@ to {background-position:  0 -270px }
     background-attachment: fixed;
     background-size: cover;
     font-size: 12px;
-    padding:25px 0 ;
+    padding:38px 0 ;
     font-family: 'Dancing Script', cursive;
     -webkit-animation: backgroundScroll2 14s linear 1;
     -webkit-animation-fill-mode: forwards;
@@ -50,7 +24,7 @@ to {background-position:  0 -270px }
 }
 
 @-webkit-keyframes backgroundScroll2 {
-from {background-position: 0 -140px;}
+from {background-position: 0 -20px;}
 to {background-position:  0 -370px }
 }
 
