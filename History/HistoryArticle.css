@@ -46,6 +46,15 @@ font-size:15px;}
     display: block;
 }
 
+#SideStory4{
+    color:rgb(197, 70, 56);
+    text-shadow:.4px .4px black;
+    font-style:oblique;
+    margin:0 auto;
+    width:83%;
+    display: block;
+}
+
 
 .TextBox b{
  color:rgb(83, 31, 72);
@@ -128,6 +137,7 @@ iframe{
     min-height:220px;
     display:block;
 }
+
 #Thumb{
 }
 #Thumb{
@@ -276,6 +286,33 @@ section-1 .TextBox{
 iframe{
     width:100%;
     border-radius:17px;
+}
+
+#FullFrame{
+    width:500px; 
+    height:300px; 
+}
+
+@media only screen and (min-width:1120px){
+#FullFrame{
+height:auto;
+width:auto;
+min-height:400px;
+min-width:650px;
+margin:25px auto 40px auto;
+}
+#ResponsiveImage{
+    width:80%;
+    margin: 0 auto; 
+    display:block;
+    margin-top:25px;
+}
+
+}
+@media only screen and (max-width:620){
+
+    #FullFrame{width:auto; 
+    height:auto; }
 }
 
 #TheScream{
@@ -505,6 +542,12 @@ footer a{
         line-height:25px;
 
     }
+    @media only screen and (min-width:1200px){
+        .EntirePage{
+
+    width:27%; /*from 27% = earlier*/
+    padding-top:15px;
+}
 #Kicker{
     margin-bottom:8px;
 }
@@ -651,6 +694,7 @@ h2 span{
     border-radius:5px;
     width:100%;
 }
+
 @media only screen and (max-width:550px){
     .GalleryGrid{
     grid-template-columns:1fr ;
@@ -667,6 +711,19 @@ h2 span{
 }
 
 }
+
+
+#DivideWaves{
+    font-size:32px; 
+    color:rgb(141, 133, 127);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    margin:-2px 0 24px 0;
+    letter-spacing:1.4px;
+    -moz-user-select: none; 
+    user-select:none;;
+}
+
 /*
 wechat bottom fixed 
 -> orange headings (3 or 4) 
