@@ -259,7 +259,7 @@ section-1 p a:hover{ color:rgb(20, 102, 102);
 section-1 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(31, 28, 28); 
-    /* love this color   rgb(58, 58, 58); */
+    /* love this color   rgb(58, 58, 58); ... no font size?*/
 }
 /*section-1 .TextBox{   min-height:370px; background-image:-webkit-linear-gradient(bottom, orange, white, white, white) }*/
 section-1 .TextBox{ 

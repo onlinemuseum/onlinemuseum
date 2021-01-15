@@ -20,12 +20,7 @@
     border-bottom-right-radius: 11px;;
 }
 
-@-webkit-keyframes backgroundScroll {
-from {background-position: 0 -40px;}
-to {background-position:  0 -270px }
-}
 
-    
     
 #CoverImageColdWar2{
     color:#fff;
@@ -54,4 +49,23 @@ from {background-position: 0 -140px;}
 to {background-position:  0 -370px }
 }
 
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 -40px;}
+    to {background-position:  0 -270px }
+    }
     
+    
+    
+    
+    @media only screen and (max-width: 600px) {
+        #CoverImageColdWar{
+        -webkit-animation: backgroundScroll2 14s linear 1;
+        }
+    @-webkit-keyframes backgroundScroll2 {
+        from {background-position: -410px -40px;}
+        to {background-position:  -410px -270px }
+        }
+        
+    
+    }
+        
