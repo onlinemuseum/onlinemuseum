@@ -287,11 +287,11 @@ iframe{
     width:100%;
     border-radius:17px;
 }
-
 #FullFrame{
     width:500px; 
     height:300px; 
 }
+
 
 @media only screen and (min-width:1120px){
 #FullFrame{
@@ -307,12 +307,20 @@ margin:25px auto 40px auto;
     display:block;
     margin-top:25px;
 }
-
 }
-@media only screen and (max-width:620){
 
-    #FullFrame{width:auto; 
-    height:auto; }
+@media only screen and (max-width:620px){
+
+    #FullFrame{width:300px;
+        height:200px;
+        max-height:200px;
+max-width:300px;
+
+  }
+  #DivideWaves{color:rgb(151, 148, 148);
+    font-size:25px;
+    text-align:center;
+  }
 }
 
 #TheScream{
@@ -695,16 +703,7 @@ h2 span{
     width:100%;
 }
 
-@media only screen and (max-width:550px){
-    .GalleryGrid{
-    grid-template-columns:1fr ;
 
-    }
-
-    .BetweenGrid{
-        width:91%;
-    }
-}
 @media only screen and (min-width:1250px){
 
 #ChangingPicture{
@@ -725,6 +724,7 @@ h2 span{
     letter-spacing:1.4px;
     -moz-user-select: none; 
     user-select:none;;
+
 }
 
 .BetweenGrid{
@@ -736,6 +736,16 @@ h2 span{
     margin-top:35px;
     margin-bottom:-2px;
 
+}
+@media only screen and (max-width:550px){
+    .GalleryGrid{
+    grid-template-columns:1fr ;
+
+    }
+
+    .BetweenGrid{
+        width:91%;
+    }
 }
 
 /*
