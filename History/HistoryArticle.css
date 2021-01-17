@@ -671,10 +671,10 @@ section-1 #RoundImage{
 }
 @media only screen and (min-width:1450px){
 .RoundGrid{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr            1fr 1fr  1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-gap:5px;
     margin: 0 auto; 
-    margin-left:-20px;
+    margin-left:-10px;
 }}
 
 header b{
