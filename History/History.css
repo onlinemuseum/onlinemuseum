@@ -29,13 +29,14 @@ to {background-position:  0 -250px;}
 
 @media only screen and (max-width:670px) {
     #CoverImage{
-        -webkit-animation: backgroundScroll-2 15s linear 1;
-        animation-fill-mode: forwards;
+        -webkit-animation: backgroundScroll-2 9s linear 1;
+    padding:35px 0 ;
+    animation-fill-mode: forwards;
     }
     
     @-webkit-keyframes backgroundScroll-2 {
         from {background-position: -10px -90px}
-        to {background-position: -180px -90px;}
+        to {background-position: -300px -90px;}
         }
         
     
@@ -125,7 +126,7 @@ to {background-position:  0 -250px;}
 }
 .PageContainer2 a{
     text-decoration: none;;
-    color:rgb(255, 11, 11);
+    color:rgb(106, 106, 106);
 
 }
 .PageContainer2 a:hover{
@@ -133,10 +134,11 @@ to {background-position:  0 -250px;}
 }
 .PageContainer2 p{
     text-align: center;
-    color:rgb(255, 11, 11);
-    
-}
+    }
+.PageContainer2 p b	{
 
+color:rgb(242, 24, 24);
+}
 
 .ImageGrid-2{
     display:grid; 

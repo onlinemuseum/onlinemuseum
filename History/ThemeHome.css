@@ -114,7 +114,7 @@ section-1 p{
     user-select:none;
     -moz-user-select: none;
     -ms-user-select: none;
-    font-size:15px; /* trying mobile friendly*/
+    font-size:17px; /* trying mobile friendly*/
 
 }
 @media only screen and (max-width:570px) {
