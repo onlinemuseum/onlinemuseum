@@ -20,22 +20,22 @@
 <url>
   <loc>https://onlinemuseum.net/history/history</loc>
   <lastmod>2021-01-18T12:25:56+00:00</lastmod>
-  <priority>0.70</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/art</loc>
   <lastmod>2021-01-18T12:25:56+00:00</lastmod>
-  <priority>0.70</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/cuisine/cuisine</loc>
   <lastmod>2021-01-18T12:25:56+00:00</lastmod>
-  <priority>0.70</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/about/about</loc>
   <lastmod>2021-01-18T12:25:56+00:00</lastmod>
-  <priority>0.60</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://onlinemuseum.net/art/ukiyo-e/woodblockprints</loc>
