@@ -395,6 +395,27 @@ details a{
 
 details a:hover{  }
 
+/*
 ::-webkit-scrollbar {
     display:none;
-}
+}*/ 
+::-webkit-scrollbar {
+    height:8.76px;
+    width:8px;
+  }
+
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 7px rgb(241, 203, 203); 
+    border-radius: 10px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb{
+      background-image:-webkit-linear-gradient(left, rgb(245, 195, 86), rgb(245, 184, 184));
+      border-radius:5px;
+  }
+  ::webkit-horizon
+  ::-webkit-scrollbar-thumb:hover {
+      background:rgba(235, 5, 5, 0.44);
+    }
