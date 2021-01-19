@@ -52,7 +52,7 @@ nav p{
     
     nav p{
         font-size:8px;
-        padding:6px 0 ;
+        padding:9px 0 ;
     }  
 
          
@@ -92,7 +92,7 @@ nav p{
 @media only screen and (max-width: 600px) {
     nav p{/*changes made here to recover mobile friendliness - see index for what exactly i also added z-index to historyarticle*/
         font-size:8.3px;
-        padding:6px 0;
+        padding:12px 0;/*MObile friendly test*/ 
     }   
     #Logo p{     font-size:12.5px;   }
     #Logo a{        font-size:12.5px;    }
