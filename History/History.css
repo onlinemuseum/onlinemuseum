@@ -246,7 +246,7 @@ h3{font-weight:400;}
 
 }
 .ThemeGrid div{
-    //*background:black;*/
+    /*background:black;*/
 }
 
 
@@ -296,6 +296,10 @@ h3{font-weight:400;}
         grid-row-gap:45px;
     }
 
+    .ThemeGrid p{
+        margin:-11px 0 -25px 0; 
+
+    }
     
     .ThemeGrid a{
         color:rgb(153, 67, 67);
@@ -306,3 +310,4 @@ h3{font-weight:400;}
     
     }
 }
+
