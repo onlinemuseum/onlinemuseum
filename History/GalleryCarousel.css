@@ -45,12 +45,13 @@ iframe{
     left:15px;  }
   
 .button-right {  
+
   right:15px;
  }
 iframe{
   min-height:200px;
   min-width:290px;}
-}
+}}
 
 iframe
 .GallerySlider a:hover{
@@ -155,40 +156,6 @@ img{
  }
 }
 
-@media only screen and (max-width:570px) {
-
-.UnderSlideDescription{
-  width:92%; margin:0 auto;;
-}
-.UnderSlideDescription p{
-  padding:2px;
-}
-
-.slide{
-  width:99%;
-}
-
-#Clicker{
-  background:none;
-  position:relative;
-  font-size:14px;
-  color: rgb(185, 143, 65);;
-}
-
-.button-left{
-  width:50px;  
-  margin-left:-10px;
-}
-.button-left span{
-display:none;}
-.button-right{
-  margin:0 0 0 auto;
-  width:40px;
-  margin-top:-40px;
-  margin-right:-10px;
-
-}
-}
 
 /*Adjust picsize for phones height*/
 @media only screen and (max-width:580px) {
@@ -210,7 +177,8 @@ img{
   .slide{
   }
   .button-left {
-    left:30px;  }
+    left:30px; 
+   }
   
 .button-right {  right:30px;
  }
@@ -233,7 +201,18 @@ img{
     bottom:150px;
   }
 }
+@media only screen and (max-width:1050px) {
+  .button-left {
+    left:50px;
+  margin-bottom:100px;
 
+  }
+  
+  .button-right {
+  right:50px;
+  margin-bottom:100px;
+  }
+}
 
 @media only screen and (min-width:1200px) {
   .slide{
@@ -274,3 +253,41 @@ img{
 .button-right {  right:390px; }
 }
 
+@media only screen and (max-width:570px) {
+
+  .UnderSlideDescription{
+    width:92%; margin:0 auto;;
+  }
+  .UnderSlideDescription p{
+    padding:2px;
+  }
+  
+  .slide{
+    width:99%;
+  }
+  
+  #Clicker{
+    background:none;
+    position:relative;
+    font-size:14px;
+    color: rgb(185, 143, 65);;
+  }
+  
+  .button-left{
+    width:50px;  
+    margin-left:-10px;
+    margin-bottom:0;
+  }
+  .button-left span{
+  display:none;}
+  .button-right{
+    margin:0 0 0 auto;
+    width:40px;
+    margin-top:-40px;
+    margin-right:-10px;
+    margin-bottom:0;
+  
+  
+  }
+  }
+  
