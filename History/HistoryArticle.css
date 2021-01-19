@@ -547,7 +547,7 @@ footer a{
    
   
   ::-webkit-scrollbar-thumb{
-      background-image:-webkit-linear-gradient(left, rgb(245, 195, 86), rgb(245, 184, 184));
+      background-image:-webkit-linear-gradient(top, rgb(245, 195, 86), rgb(245, 184, 184));
       border-radius:5px;
   }
   ::webkit-horizon
