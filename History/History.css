@@ -346,3 +346,7 @@ h3{font-weight:400;}
     #ThemeRotates img{
         display:none;
     }}
+
+    body{
+        overflow-x: hidden;;
+    }
