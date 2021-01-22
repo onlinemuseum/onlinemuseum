@@ -484,7 +484,9 @@ object{width:100%; margin:0; display:block;
         display:block; margin:0 auto; border:1.5px solid rgb(133, 75, 21);}
     .TopGrid>div {transition:transform .245s; opacity:.95; 
           }
-    .TopGrid>div:hover {transform:scale(.7); object-fit:none; opacity:.8 }
+    .TopGrid>div:hover {transform:scale(.7); object-fit:none; opacity:.8;
+        /*perfect opacity is .8 .. to make title more legible*/
+    }
     
     .TopBox{position:relative;}
     .TopBox div{position:absolute; top:0; left:10px;}
@@ -496,6 +498,7 @@ object{width:100%; margin:0; display:block;
         font-size:23px;
         color:black;
         font-weight:bold;
+        white-space: normal;
         font-style:oblique;
         text-shadow:.7px .7px red;
     }
@@ -731,3 +734,19 @@ object{width:100%; margin:0; display:block;
 
     }
           
+
+    
+button{
+    border-radius:5px;
+    padding:9px;
+    background-color:rgb(238, 162, 112); 
+    color:rgb(63, 63, 63);
+    font-weight: bold;;
+    border:none;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: ;
+    color:rgb(230, 229, 229);;
+}

@@ -92,13 +92,13 @@ nav p{
 @media only screen and (max-width: 600px) {
     nav p{/*changes made here to recover mobile friendliness - see index for what exactly i also added z-index to historyarticle*/
         font-size:8.3px;
-        padding:12px 0;/*MObile friendly test*/ 
+        padding:11px 0;/*MObile friendly test*/ 
     }   
-    #Logo p{     font-size:12.5px;   }
-    #Logo a{        font-size:12.5px;    }
-    #Logo{        left:-5px; top:-2px;}
+    #Logo a{        font-size:11.5px;    }/*MObile friendly test from 12px*/ 
+/*    #Logo{        left:-5px; top:-2px;}deleted this line as part of mobile responsive test*/ 
     nav{grid-template-columns: .8fr 3fr; 
-        grid-gap:5px; ;}
+        grid-gap:5px; /*try for next day mobile friendly test*/ 
+        ;}
    /*Possible for nice mobile feat  #CurrentNav{
     padding-bottom:15px;
     border-bottom:2.1px solid rgb(241, 172, 81);
