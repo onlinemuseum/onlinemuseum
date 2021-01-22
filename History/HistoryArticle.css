@@ -252,20 +252,29 @@ hr{margin-top:15px; }
 
 /*background-image: -webkit-linear-gradient(left, rgb(255, 212, 172), rgb(255, 123, 0));*/
 
-
+/*
 section-1 p a{text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
 
 section-1 p a:hover{ color:rgb(20, 102, 102);
    
     border-bottom:.35px solid rgb(218, 153, 13); 
-}
+}*/
 
 .EntirePage a{
-    text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
-    .EntirePag p a:hover{ color:rgb(20, 102, 102);
-       
-        border-bottom:.35px solid rgb(218, 153, 13); 
-    }
+    text-decoration: none;   color: rgb(9, 139, 156); 
+    /*text-shadow:.5px .5px rgb(155, 192, 209); 
+    text-shadow:.5px .5px rgb(113, 146, 162); */
+
+} 
+
+
+.EntirePage p a:hover{ color:rgb(20, 102, 102);
+    
+    border-bottom:.35px solid rgb(218, 153, 13); 
+    border-bottom:.45px solid rgb(218, 153, 13); 
+
+
+}
 section-1 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(31, 28, 28); 
