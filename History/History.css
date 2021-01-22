@@ -289,6 +289,24 @@ h3{font-weight:400;}
     border-radius:5px; 
     object-fit:cover;
 }
+
+
+
+#ThemeRotates{
+    position:relative;
+}
+#ThemeRotates div{
+    position:absolute;
+    top:-215px;
+    right:-316px;
+
+}
+
+#ThemeRotates img{
+    width:40%;
+    object-fit: contain;
+
+}
 @media only screen and (max-width:620px) {
     .ThemeGrid{
         display:grid; 
@@ -309,5 +327,22 @@ h3{font-weight:400;}
         -webkit-user-select: none;;
     
     }
+
+    #ThemeRotates img{
+        width:35%;
+    }
+    #ThemeRotates div{
+        position:absolute;
+        top:-170px;
+        right:-326px;
+    
+    }
 }
 
+
+@media only screen and (max-width:820px) {
+
+
+    #ThemeRotates img{
+        display:none;
+    }}

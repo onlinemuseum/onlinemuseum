@@ -769,16 +769,87 @@ h2 span{
     margin-bottom:-2px;
 
 }
+
+#RotateNote{
+  position:relative;
+}
+#RotateNote p{
+    position:absolute; 
+    transform:rotate(19deg);
+    font-size:15px;
+    top:15px; 
+    width:140px;
+    right:-165px;;
+}
+
+#RotateNote2{
+    position:relative;
+  }
+#RotateNote2 p{
+    position:absolute; 
+    font-size:15px;
+    top:-45px; 
+    width:140px;
+    left:-165px;;
+}
+#RotatePicture {position:relative;}
+
+#RotatePicture p{
+    position:absolute; 
+    font-size:15px;
+    top:-25px; 
+    width:115px;
+
+    Left:-165px;;
+}
+
+#RotatePicture2 {position:relative;}
+
+#RotatePicture2 p{
+    position:absolute; 
+    font-size:15px;
+    top:-25px; 
+    width:115px;
+    Right:-165px;;
+}
+
+
 @media only screen and (max-width:550px){
     .GalleryGrid{
     grid-template-columns:1fr ;
 
     }
+    #RotateNote{
+display:none;}
+#RotateNote2{
+    display:none;}
+#RotateNote3{
+    display:none;}
+
+    #RotatePicture p{
+        font-size:15px;
+        position:relative;
+        width:70%;
+        margin:0 auto;
+        left:0;
+        top:0;
+    }
+
+    #RotatePicture2 p{
+        font-size:15px;
+        position:relative;
+        width:70%;
+        margin:0 auto;
+        right:0;
+        top:0;
+    }
+    
 
     .BetweenGrid{
         width:91%;
     }
 }
+
 
 /*
 wechat bottom fixed 
@@ -788,3 +859,4 @@ maybe webkit linear gradient from bot orange
 
 on fullframe 
 -> sidebar with all the headings
+*/
