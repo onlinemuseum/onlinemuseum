@@ -25,12 +25,19 @@ border-top-right-radius:15px;
 }
 #Mailing{
 
+
+
+}
+
+body{
+    overflow-x: hidden;
 }
 
 input{
     border-radius:5px;
     outline:none;
 }
+
 
 button{
     border-radius:5px;
