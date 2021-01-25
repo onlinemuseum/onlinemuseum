@@ -228,6 +228,7 @@ nav #Nav2{    grid-template-columns:1fr 1fr 1fr 1fr;;}
 .EntirePage{
     margin:0 auto; 
     width:50%;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*barely noticeable bg
@@ -566,6 +567,18 @@ footer a{
 
 
 @media only screen and (max-width:550px){
+    .EntirePage{
+        width:67%; /*from 27% = earlier*/
+        padding-top:15px;
+    }
+    #SmallerImg2{
+        width:65%;
+    }
+
+#SmallerPic2{
+    width:65%;
+}
+
 
     section-1 h2{
         line-height:18px;
