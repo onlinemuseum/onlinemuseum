@@ -118,7 +118,7 @@ to {background-position:  0 -400px;
     
     @-webkit-keyframes backgroundScroll-3 {
         from {background-position: 0 -400px;
-            opacity:.5
+            opacity:.3
             }
             to {background-position:  0 -590px;
                 opacity:1;
