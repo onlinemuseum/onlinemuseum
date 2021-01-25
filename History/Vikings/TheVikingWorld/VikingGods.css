@@ -74,3 +74,49 @@ footer-3{
     border-top:3px solid rgb(240, 185, 83);
     
 }
+
+
+#CoverImageViking{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('Leif_Erikson_Hans_Dahl.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:40px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 12s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 12s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 -50px}
+to {background-position:  0 -250px;}
+}
+
+
+@media only screen and (max-width:670px) {
+    #CoverImageViking{
+        -webkit-animation: backgroundScroll-2 9s linear 1;
+    padding:35px 0 ;
+    animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-2 {
+        from {background-position: -10px -90px}
+        to {background-position: -300px -90px;}
+        }
+        
+    
+    }
+    
