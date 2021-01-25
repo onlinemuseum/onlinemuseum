@@ -108,19 +108,19 @@ to {background-position:  0 -400px;
 }
 }
 
-/*
-@media only screen and (max-width:670px) {
+
+
+@media only screen and (min-width:1070px) {
     #CoverImageViking{
-        -webkit-animation: backgroundScroll-2 9s linear 1;
-    padding:35px 0 ;
+        -webkit-animation: backgroundScroll-3 11s linear 1;
     animation-fill-mode: forwards;
     }
     
-    @-webkit-keyframes backgroundScroll-2 {
-        from {background-position: -10px -90px}
-        to {background-position: -300px -90px;}
-        }
-        
-    
+    @-webkit-keyframes backgroundScroll-3 {
+        from {background-position: 0 -400px;
+            opacity:.5
+            }
+            to {background-position:  0 -590px;
+                opacity:1;
+            }
     }
-    
