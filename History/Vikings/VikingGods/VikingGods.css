@@ -25,12 +25,19 @@ border-top-right-radius:15px;
 }
 #Mailing{
 
+
+
+}
+
+body{
+    overflow-x: hidden;
 }
 
 input{
     border-radius:5px;
     outline:none;
 }
+
 
 button{
     border-radius:5px;
@@ -67,3 +74,52 @@ footer-3{
     border-top:3px solid rgb(240, 185, 83);
     
 }
+
+
+#CoverImageViking2{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('Odin-and-Brunnhilde.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 42px;
+    padding:40px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll-2 12s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll-2 12s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+
+@-webkit-keyframes backgroundScroll-2 {
+from {background-position: 0 -250px;
+}
+to {background-position:  0 -400px;
+    opacity:1;
+}
+}
+
+
+
+@media only screen and (min-width:1070px) {
+    #CoverImageViking{
+        -webkit-animation: backgroundScroll-3 11s linear 1;
+    animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-3 {
+        from {background-position: 0 -400px;
+            opacity:.25;
+            }
+            to {background-position:  0 -590px;
+                opacity:1;
+            }
+    }
