@@ -23,23 +23,6 @@ object{width:100%; margin:0; display:block;
             text-transform: uppercase;
             text-decoration: underline;;
     }
-    
-    @media only screen and (max-width: 600px) {
-    
-        nav p{
-            font-size:8px;
-            padding:6px 0 ;
-    
-        }   
-       
-    #Logo a{        font-size:12.5px;    }
-    #Logo{        left:3px; top:-3px;}
-        nav{
-            grid-template-columns: .6fr 3fr ;
-        }
-    
-        
-    }
 
   
     .Carousel{    width:100%;    
@@ -140,7 +123,44 @@ object{width:100%; margin:0; display:block;
             border-bottom-right-radius: 7px;*/
     
     }
+    @media only screen and (max-width: 600px) {
     
+        nav p{
+            font-size:8px;
+            padding:9px 0 ;
+        }  
+    
+             
+        #Logo a{        font-size:12.5px;    }
+        #Logo{        left:3px; top:-3px;}
+            nav{
+                grid-template-columns: .6fr 3fr ;
+                /*grid-template-columns: .6fr 3fr ;
+                */
+            }
+        
+      } 
+
+      @media only screen and (max-width: 600px) {
+        nav p{/*changes made here to recover mobile friendliness - see index for what exactly i also added z-index to historyarticle*/
+            font-size:8.9px;
+            padding:9px 0;/*MObile friendly test*/ 
+        }   
+            #Logo a{ font-size:11px;    }/*MObile friendly test from 12px*/ 
+    /*    #Logo{        left:-5px; top:-2px;}deleted this line as part of mobile responsive test*/ 
+        nav{grid-template-columns: .65fr 3fr; 
+            grid-gap:4px; /*try for next day mobile friendly test*/ 
+            ;}
+       /*Possible for nice mobile feat  #CurrentNav{
+        padding-bottom:15px;
+        border-bottom:2.1px solid rgb(241, 172, 81);
+      }
+    
+    #Nav2 a:hover{
+    border-bottom:none;
+    padding-bottom:none;
+    }  */
+    }
     .EndNote{
         margin:0 auto;
         margin-bottom:-25px;
