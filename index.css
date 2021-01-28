@@ -123,6 +123,7 @@ object{width:100%; margin:0; display:block;
             border-bottom-right-radius: 7px;*/
     
     }
+    /* mobile friendly attempt below */
     @media only screen and (max-width: 600px) {
     
         nav p{
