@@ -1,0 +1,52 @@
+
+@media only screen and (max-width:580px) {
+ 
+  .button-left {
+    left:15px;  }
+  
+.button-right {  
+  right:15px;
+ }
+}
+
+
+
+@media only screen and (max-width:570px) {
+
+  .UnderSlideDescription{
+    width:92%; margin:0 auto;;
+  }
+  .UnderSlideDescription p{
+    padding:2px;
+  }
+  
+  .slide{
+    width:99%;
+  }
+  
+  #Clicker{
+    background:none;
+    position:relative;
+    font-size:14px;
+    color: rgb(185, 143, 65);;
+  }
+  
+  .button-left{
+    width:50px;  
+    margin-left:-19px;
+    margin-bottom:0;
+
+  }
+  .button-left span{
+  display:none;}
+  .button-right{
+    margin:0 0 0 auto;
+    width:40px;
+    margin-top:-40px;
+    margin-right:-15px;
+    margin-bottom:0;
+  
+  }
+
+  }
+  
