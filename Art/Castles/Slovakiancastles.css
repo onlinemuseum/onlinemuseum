@@ -80,6 +80,21 @@ to {background-position:  0 -390px }
 }
 
     
+@media only screen and (max-width:1270px) {
+  #CoverImageCastles{
+      -webkit-animation: backgroundScroll-4 9s linear 1;
+  padding:35px 0 ;
+  animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes backgroundScroll-4 {
+      from {background-position:0 -60px}
+      to {background-position: 0 -190px;}
+      }
+      
+  
+  }
+  
 
 @media only screen and (max-width:670px) {
   #CoverImageCastles{
