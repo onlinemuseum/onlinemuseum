@@ -50,3 +50,49 @@
 
   }
   
+
+    
+#CoverImageCastles{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('castle-beckov.png');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:25px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll2 14s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll2 14s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+@-webkit-keyframes backgroundScroll2 {
+from {background-position: 0 -140px;}
+to {background-position:  0 -390px }
+}
+
+    
+
+@media only screen and (max-width:670px) {
+  #CoverImageCastles{
+      -webkit-animation: backgroundScroll-3 9s linear 1;
+  padding:35px 0 ;
+  animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes backgroundScroll-3 {
+      from {background-position: -37px -80px}
+      to {background-position: -170px -80px;}
+      }
+      
+  
+  }
+  
