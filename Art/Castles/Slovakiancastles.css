@@ -85,7 +85,7 @@ to {opacity:1; }
 
 @media only screen and (max-width:670px) {
   #CoverImageCastles{
-      -webkit-animation: backgroundScroll-3 5s linear 1;
+      -webkit-animation: backgroundScroll-3 4s linear 1;
   padding:35px 0 ;
   animation-fill-mode: forwards;
   }
