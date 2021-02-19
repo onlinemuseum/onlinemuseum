@@ -111,7 +111,8 @@ img{
 
 .button-right {
   right:15px;
-  width:89px;
+  width:69px;
+
 }
 
 
@@ -159,14 +160,14 @@ iframe{
 }
 
 .button-left{
-  width:50px;  
+  width:40px;  
   margin-left:-10px;
 }
 .button-left span{
 display:none;}
 .button-right{
   margin:0 0 0 auto;
-  width:40px;
+  width:50px;
   margin-top:-40px;
   margin-right:-10px;
 
