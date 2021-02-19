@@ -102,7 +102,7 @@ to {opacity:1; }
   @media only screen and (min-width:1580px) {
     #CoverImageCastles{
 
-        -webkit-animation: backgroundScroll-5 5s linear 1;
+        -webkit-animation: backgroundScroll-5 4s linear 1;
     padding:45px 0 ;
     animation-fill-mode: forwards;
     }
@@ -110,7 +110,7 @@ to {opacity:1; }
     @-webkit-keyframes backgroundScroll-5 {
       from {    background-position:0 -510px;
       }
-      to {    background-position:0 -380px;
+      to {    background-position:0 -405px;
       }
       }
       
