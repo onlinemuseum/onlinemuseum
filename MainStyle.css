@@ -375,6 +375,7 @@ text-shadow:.4px .4px rgb(150, 149, 201);
 font-size:15.5px;
 margin-top:25px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
 }
 summary:hover{
     color:rgb(216, 180, 81);
