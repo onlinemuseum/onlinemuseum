@@ -358,17 +358,36 @@ header{
     padding-top:25px;
     padding-bottom:11px; 
 }
+/*
 details b{
     font-weight:normal; background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg'); background-repeat: no-repeat;
     background-position: 0 12px; 
-}
+}*/
 
 #Tryer{
     font-size:22px; width:100%;
 }
 
 summary::-webkit-details-marker {  display: none; }
-summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none; display:block;} 
+summary{ cursor:pointer; outline:none; user-select:none; -moz-user-select: none; display:block;
+color:rgb(23, 23, 90);
+text-shadow:.4px .4px rgb(150, 149, 201);
+font-size:15.5px;
+margin-top:25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+summary:hover{
+    color:rgb(216, 180, 81);
+
+
+}
+summary:focus{
+    color:rgb(0, 128, 128);
+    color:rgb(221, 193, 117);
+
+}
+
+/*
 details{margin:0; margin-bottom:40px; }
 details p{ 
     padding-left:10px;
@@ -394,6 +413,8 @@ details a{
 }
 
 details a:hover{  }
+*/
+
 
 /*
 ::-webkit-scrollbar {
