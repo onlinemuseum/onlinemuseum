@@ -309,7 +309,7 @@ img{
   
   }
   }
-  
+  /*added stuff from here on .. for button placement inmprovement*/
 @media only screen and (max-width:580px) {
  
   .button-left {
@@ -361,74 +361,3 @@ img{
 
   }
   
-
-    
-#CoverImageCastles{
-    color:#fff;
-    opacity:.82;
-    border-bottom:2px solid rgb(82, 24, 14);
-    border-bottom:2px solid rgb(231, 186, 60);
-    text-align:center;
-    background-image: url('Beckov-castle.PNG');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 12px;
-    padding:32px 0 ;
-    font-family: 'Dancing Script', cursive;
-    -webkit-animation: backgroundScroll2 3s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll2 3s linear 1;
-    animation-fill-mode: forwards;
-    border-bottom-left-radius: 11px; 
-    border-bottom-right-radius: 11px;;
-    background-position:0 -290px
-}
-
-@-webkit-keyframes backgroundScroll2 {
-from {opacity:.1;}
-to {opacity:1; }
-}
-
-    
-
-  
-
-@media only screen and (max-width:670px) {
-  #CoverImageCastles{
-      -webkit-animation: backgroundScroll-3 4s linear 1;
-  padding:35px 0 ;
-  animation-fill-mode: forwards;
-  }
-  
-  @-webkit-keyframes backgroundScroll-3 {
-      from {background-position: -370px -300px}
-      to {background-position: -370px -200px;}
-      }
-      
-  
-  }
-  
-
-  @media only screen and (min-width:1580px) {
-    #CoverImageCastles{
-
-        -webkit-animation: backgroundScroll-5 4s linear 1;
-    padding:45px 0 ;
-    animation-fill-mode: forwards;
-    }
-    
-    @-webkit-keyframes backgroundScroll-5 {
-      from {    background-position:0 -510px;
-      }
-      to {    background-position:0 -395px;
-      }
-      }
-      
-  
-  }
-  
-
-    
-    }
-    
