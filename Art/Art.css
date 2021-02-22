@@ -27,6 +27,19 @@ from {background-position:0px  50px  }
 to {background-position: 0 -140px  }
 }
 
+summary{
+margin-bottom:25px;
+margin-left:-25px;
+margin-top:5px;
+}
+@media only screen and (min-width:1070px) {
+summary{
+
+margin-left:-55px;
+}
+}
+/*has mobile friendly variable in 1480 minwidth media*/
+
 
 @media only screen and (max-width:670px) {
     #CoverImage{
@@ -233,6 +246,9 @@ a{
             margin-left:55px;
 
         }
+        summary{
+
+            margin-left:-155px;}
     
 section-2 img{
     width:18%; 
