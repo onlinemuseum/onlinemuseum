@@ -4,7 +4,7 @@
   border-bottom:2px solid rgb(82, 24, 14);
   border-bottom:2px solid rgb(231, 186, 60);
   text-align:center;
-  background-image: url('Hokusai/HokusaiFan.jpg');
+  background-image: url('Horizon1.jpg');
   /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
   background-repeat: repeat;
   background-attachment: fixed;
@@ -12,48 +12,18 @@
   font-size: 12px;
   padding:25px 0 ;
   font-family: 'Dancing Script', cursive;
-  -webkit-animation: backgroundScroll 7s linear 1;
+  -webkit-animation: backgroundScroll 15s linear 1;
   -webkit-animation-fill-mode: forwards;
-  animation: backgroundScroll 7s linear 1;
+  animation: backgroundScroll 15s linear 1;
   animation-fill-mode: forwards;
   border-bottom-left-radius: 11px; 
   border-bottom-right-radius: 11px;;
-}
-
-@-webkit-keyframes backgroundScroll {
-  from {background-position: 0 0;}
-  to {background-position: 0 -150px ;}
 }
 .GallerySlider a{
   text-decoration: none;
   color:rgb(248, 1, 125);
 }
 
-iframe{
-  margin:0 auto;
-  min-height:320px;
-  min-width:520px;
-  display:block;
-  border-radius:5px;
-}
-
-@media only screen and (max-width:580px) {
-  .slide{
-    width:50%;
-  }
-  .button-left {
-    left:15px;  }
-  
-.button-right {  
-
-  right:15px;
- }
-iframe{
-  min-height:200px;
-  min-width:290px;}
-}}
-
-iframe
 .GallerySlider a:hover{
   text-decoration: underline;;
 }
@@ -61,6 +31,7 @@ iframe
 p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 img{
   width:100%;
@@ -140,9 +111,18 @@ img{
 
 .button-right {
   right:15px;
-  width:89px;
+  width:69px;
+
 }
 
+
+iframe{
+  margin:0 auto;
+  min-height:320px;
+  min-width:520px;
+  display:block;
+  border-radius:5px;
+}
 
 @media only screen and (max-width:580px) {
   .slide{
@@ -154,8 +134,45 @@ img{
 .button-right {  
   right:15px;
  }
+iframe{
+  min-height:200px;
+  min-width:290px;}
 }
 
+@media only screen and (max-width:570px) {
+
+.UnderSlideDescription{
+  width:100%;
+}
+.UnderSlideDescription p{
+  padding:2px;
+}
+
+.slide{
+  width:99%;
+}
+
+#Clicker{
+  background:none;
+  position:relative;
+  font-size:14px;
+  color: rgb(185, 143, 65);;
+}
+
+.button-left{
+  width:40px;  
+  margin-left:-10px;
+}
+.button-left span{
+display:none;}
+.button-right{
+  margin:0 0 0 auto;
+  width:50px;
+  margin-top:-40px;
+  margin-right:-10px;
+
+}
+}
 
 /*Adjust picsize for phones height*/
 @media only screen and (max-width:580px) {
@@ -177,8 +194,7 @@ img{
   .slide{
   }
   .button-left {
-    left:30px; 
-   }
+    left:30px;  }
   
 .button-right {  right:30px;
  }
@@ -201,20 +217,9 @@ img{
     bottom:150px;
   }
 }
-@media only screen and (max-width:1050px) {
-  .button-left {
-    left:50px;
-  margin-bottom:100px;
 
-  }
-  
-  .button-right {
-  right:50px;
-  margin-bottom:100px;
-  }
-}
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1250px) {
   .slide{
     width:50%;
   }
@@ -251,6 +256,20 @@ img{
     left:410px;  }
   
 .button-right {  right:390px; }
+}
+
+/*better psoition of buttons*/
+@media only screen and (max-width:1050px) {
+  .button-left {
+    left:50px;
+  margin-bottom:100px;
+
+  }
+  
+  .button-right {
+  right:50px;
+  margin-bottom:100px;
+  }
 }
 
 @media only screen and (max-width:570px) {
