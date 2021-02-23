@@ -1,0 +1,12 @@
+section-1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(31, 28, 28); 
+    color:black;
+
+    /* love this color   rgb(58, 58, 58); and this  */
+}
+
+.Introduction p{
+    font-size:16px;
+    color:black;
+}

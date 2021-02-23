@@ -51,7 +51,7 @@ header #TheTitle{ Margin:0 0 0 0 ;text-align:left; color:rgb(58, 58, 57);
         padding-top:12.5px;
     
     }
-    #Date2{margin:7px 0 0 0; color: rgb(199, 132, 44);}
+    #Date2{margin:7px 0 0 0; color: rgb(199, 132, 44); margin-bottom:-2px;;}
     #SubTitle2{ color: rgb(112, 112, 112); margin:10px 0 0 0 ; }
     hr{margin-top:15px; }
     #SecondHR{margin-top:35px;}
@@ -304,7 +304,13 @@ hr{margin-top:15px; }
 
 /*background-image: -webkit-linear-gradient(left, rgb(255, 212, 172), rgb(255, 123, 0));*/
 
+#Author{color:rgb(48, 48, 48); }
+#Author a {text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
+#Author a:hover{ color:rgb(20, 102, 102); 
+    border-bottom:.35px solid rgb(218, 153, 13); 
 
+}
+   
 section-1 p a{text-decoration: none;   color: rgb(9, 139, 156);  text-shadow:.2px .2px black; ;} 
 section-1 p a:hover{ color:rgb(20, 102, 102);
    
@@ -497,6 +503,12 @@ footer a{
 
 
 
+#RecipeInstructions4 li{
+    color:rgba(28, 102, 151, 0.829);
+    text-shadow:.4px .4px rgb(15, 61, 114);
+    margin-bottom:14px;
+}
+
 
 #RecipeInstructions3 li{
     color:rgb(110, 13, 17);
@@ -534,6 +546,7 @@ iframe{
 @media only screen and (min-width:1200px){
     .EntirePage{
         width:27%; /*nice staple is 27%*/
+        width:30%;
         padding-top:15px;
     }
 
@@ -555,3 +568,4 @@ iframe{
 
     }
 }
+
