@@ -247,8 +247,9 @@ a{
 
         }
         summary{
-
-            margin-left:-155px;}
+            margin-top:-10px;
+            margin-left:-155px;
+        }
     
 section-2 img{
     width:18%; 
