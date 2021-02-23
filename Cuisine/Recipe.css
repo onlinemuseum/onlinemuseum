@@ -368,6 +368,17 @@ iframe{
 }
 
 
+#PicCaption3{
+    width:65%; 
+    margin: 0 auto 20px auto; 
+    font-style:oblique;
+    text-align:center; 
+    color: grey; 
+    font-size:16px;
+    color:rgb(170, 26, 26);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 section-1 img{
     width:100%;
 }
