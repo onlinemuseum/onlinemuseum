@@ -55,6 +55,11 @@ font-size:15px;}
     display: block;
 }
 
+#SideStory6{
+    color:rgb(184, 39, 39);
+    font-style:oblique;
+    margin-left:17px;
+}
 
 .TextBox b{
  color:rgb(83, 31, 72);
@@ -815,7 +820,9 @@ h2 span{
 
     Left:-165px;;
 }
-
+a {
+    outline:none;
+}
 #RotatePicture2 {position:relative;}
 
 #RotatePicture2 p{
