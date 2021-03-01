@@ -156,6 +156,7 @@ color:rgb(242, 24, 24);
 .ImageGrid-2 img{
     opacity:.85;
     width:100%; 
+    width:87%; /*from 100% earlier*/
     margin:0; 
     object-fit: contain;
     border-radius:5px; 
