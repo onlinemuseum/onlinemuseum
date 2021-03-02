@@ -44,6 +44,11 @@
 header{
 
 }
+#SmallerPic2{
+    margin:0 auto;
+    display:block;
+        width:50%;
+}
 header #TheTitle{ Margin:0 0 0 0 ;text-align:left; color:rgb(58, 58, 57); 
     font-size:32px;  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-transform: uppercase; font-weight: 550; font-style:normal; font-size:28px;}
     #Kicker2{display:block; letter-spacing:2px; font-weight:bold;  color:grey; text-transform: uppercase; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:15px; 
