@@ -505,7 +505,9 @@ section-2 .UsefulSources a:hover{
     opacity:1;
     border-bottom:none;
 }
-
+section-2 .UsefulSources2 li{
+    margin-left:2px;;
+}
 section-2 h3{
     font-size:15px; 
     color:rgb(70, 70, 70); 
