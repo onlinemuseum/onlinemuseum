@@ -39,8 +39,6 @@ to {background-position:  0 -270px }
 
 
 
-
-
 .EntirePage h2{
 font-size:16.5px;;
 }
@@ -62,12 +60,19 @@ font-size:16.5px;;
 }
 
 
+@media only screen and (min-width:1250px){
 
+
+#SmallerImg2{
+    width:50%;
+}}
 @media only screen and (max-width:550px){
     .GalleryGrid{
     grid-template-columns:1fr ;
 
     }
+    
+
     #RotateNote{
 display:none;}
 #RotateNote2{
