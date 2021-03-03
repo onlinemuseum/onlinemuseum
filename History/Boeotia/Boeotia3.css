@@ -1,0 +1,100 @@
+#Thumb4{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('Oedipus/Bénigne_Gagneraux\,_The_Blind_Oedipus_Commending_his_Children_to_the_Gods.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:25px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 14s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 14s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 -30px;}
+to {background-position:  0 -270px }
+}
+@media only screen and (max-width:550px){
+    #Thumb4{
+        -webkit-animation: backgroundScroll2 7s linear 1;
+    -webkit-animation-fill-mode: forwards;
+
+    }
+
+@-webkit-keyframes backgroundScroll2 {
+    from {background-position: -320px -420px;}
+    to {background-position:  -320px  -220px }
+    }
+}
+
+
+
+
+
+.EntirePage h2{
+font-size:16.5px;;
+}
+.EntirePage{
+    width:80%;
+}
+/*.EntirePage p i{color:rgb(124, 16, 196);}*/
+
+
+#RotatePicture p{
+ 
+
+    Left:-150px;;
+}
+#RotatePicture2 p{
+ 
+
+    right:-142px;;
+}
+
+
+
+@media only screen and (max-width:550px){
+    .GalleryGrid{
+    grid-template-columns:1fr ;
+
+    }
+    #RotateNote{
+display:none;}
+#RotateNote2{
+    display:none;}
+#RotateNote3{
+    display:none;}
+
+    #RotatePicture p{
+        font-size:15px;
+        position:relative;
+        width:70%;
+        margin:0 auto;
+        left:0;
+        top:0;
+    }
+
+    #RotatePicture2 p{
+        font-size:15px;
+        position:relative;
+        width:70%;
+        margin:0 auto;
+        right:0;
+        top:0;
+    }
+    
+
+    .BetweenGrid{
+        width:91%;
+    }
+}

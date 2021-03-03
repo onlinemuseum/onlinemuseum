@@ -84,11 +84,28 @@ font-size:15px;}
 
 
 }
+
+
 object{width:100%; margin:0; display:block; 
     max-height:39px;
-
     } 
-object{width:100%; margin:0; }
+    a {outline:none;}
+    
+    body{margin:0; padding:0 ; }
+    
+    .NewsReel{
+        background-color:white; 
+        position:relative;
+        background-color:rgba(255, 255, 255, 0); 
+        padding:19px 0 ;
+    }
+    
+    .NewsReel object{
+        position: absolute;
+        top:0;
+    }
+    
+    object{width:100%; margin:0; }
 
 nav p{
     text-align:center;

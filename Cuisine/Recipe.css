@@ -1,3 +1,5 @@
+
+
 #CoverImage{
     color:#fff;
     opacity:.82;
@@ -183,14 +185,27 @@ font-size:15px;}
     padding-left:55px;
 }
 
-.NewsReel object{
-    position: absolute;
-    top:0;
-    z-index:-1;
-}
 
-object{width:100%; margin:0; }
-
+object{width:100%; margin:0; display:block; 
+    max-height:39px;
+    } 
+    a {outline:none;}
+    
+    body{margin:0; padding:0 ; }
+    
+    .NewsReel{
+        background-color:white; 
+        position:relative;
+        background-color:rgba(255, 255, 255, 0); 
+        padding:19px 0 ;
+    }
+    
+    .NewsReel object{
+        position: absolute;
+        top:0;
+    }
+    
+    object{width:100%; margin:0; }
 nav p{
     text-align:center;
         font-size:9.2px;
