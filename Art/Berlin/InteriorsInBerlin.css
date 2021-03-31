@@ -23,6 +23,7 @@
   .slide{
     width:99%;
   }
+
   
   #Clicker{
     background:none;
@@ -47,18 +48,76 @@
     margin-bottom:0;
   
   }
+}
+
+
+
+  .button-left-2{
+    position:fixed;
+    left:55px;
+  }
+  .button-right-2{
+    position:fixed;
+    right:55px;
+    width:54px;
+  }
+  @media only screen and (max-width:570px) {
+    .button-left-2{
+      position:fixed;
+      left:15px;
+    }
+    .button-right-2{
+      position:fixed;
+      right:15px;
+      width:54px;
+    }
+
+    #Clicker{
+      background:none;
+      position:fixed;
+      top:325px;
+      font-size:14px;
+      color: rgb(225, 190, 51);;
+      text-shadow:.8px .8px rgb(169, 97, 31);
+    }
+    
 
   }
-  
+  /*height difference from normal!!*/
+  img{
+  max-height:760px;
+  }
+    
+  @media only screen and (min-width:1050px) {
+    .slide{
+      width:80%;
+  }
+
+  img{
+    max-height:960px;
+    }
 
     
+  .button-left-2{
+    position:fixed;
+    left:155px;
+    bottom:135px;
+
+  }
+  .button-right-2{
+    position:fixed;
+    right:155px;
+    width:54px;
+    bottom:135px;
+  }
+}
+
 #CoverImageCastles{
     color:#fff;
-    opacity:.82;
     border-bottom:2px solid rgb(82, 24, 14);
     border-bottom:2px solid rgb(231, 186, 60);
     text-align:center;
-    background-image: url('Beckov-castle.PNG');
+    background-image: url('Berlin-Skyline.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -74,9 +133,11 @@
     background-position:0 -290px
 }
 
+
+
 @-webkit-keyframes backgroundScroll2 {
-from {opacity:.1;}
-to {opacity:1; }
+  from {background-position: -370px -100px}
+  to {background-position: -370px -200px;}
 }
 
     
