@@ -74,11 +74,11 @@
 
     #Clicker{
       background:none;
-      position:fixed;
+      position:absolute;
       top:325px;
       font-size:14px;
-      color: rgb(225, 190, 51);;
-      text-shadow:.8px .8px rgb(169, 97, 31);
+      color: rgb(226, 185, 141);;
+      text-shadow:.5px .5px rgb(94, 62, 33);
     }
     
 
