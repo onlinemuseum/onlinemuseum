@@ -48,6 +48,7 @@ nav p{
         text-transform: uppercase;
         text-decoration: underline;;
 }/*added*/
+
 @media only screen and (max-width: 600px) {
     
     nav p{
