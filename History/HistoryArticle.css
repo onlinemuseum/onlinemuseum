@@ -22,7 +22,10 @@ font-size:15px;}
 #Coloured{
     color:rgb(128, 14, 14);
 }
-
+#Quote{
+    text-align: center;
+    color: rgb(6, 112, 33);;
+}
 #SideStory{
     color:rgb(51, 41, 94);
     font-style:oblique;
