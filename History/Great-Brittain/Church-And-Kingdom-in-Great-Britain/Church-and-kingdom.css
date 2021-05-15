@@ -1,0 +1,32 @@
+.EntirePage{
+    width:60%;
+}
+section-1 h2{
+    font-size:17.25px;
+    text-align: center;
+
+}
+
+#DiffHeading{
+    font-size:16.25px;
+    margin:25px 0 25px 0;
+    text-align: left;
+}
+
+section-2 b{
+    color:rgb(8, 61, 54);
+}
+
+#RotatePicture2 p{
+    color:rgb(61, 47, 47);
+    font-style:oblique;
+}
+#RotatePicture p{
+    color:rgb(61, 47, 47);
+    font-style:oblique;
+}
+
+@media only screen and (min-width:1150px){
+.EntirePage{
+    width:35%;
+    }}

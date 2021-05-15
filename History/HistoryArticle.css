@@ -18,9 +18,24 @@ text-decoration: underline;;}
 img{width:100%; border-radius:8px; margin:12px 0 5px 0;}
 #SubPic{text-align:center; color:grey; margin:0 0 28px 0;
 font-size:15px;}
-
+#DiffHeading{
+    color:rgb(85, 84, 84);
+    font-style:oblique;
+}
+#EndSymbol{
+    text-align:center;
+    font-weight:bold;
+    font-size:21px;
+    letter-spacing:5px;
+}
 #Coloured{
     color:rgb(128, 14, 14);
+}
+#Quote2{
+    text-align: center;
+    color: rgb(6, 43, 112);;
+    width:80%; 
+    margin:0 auto;
 }
 #Quote{
     text-align: center;
