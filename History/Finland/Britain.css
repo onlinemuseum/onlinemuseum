@@ -1,0 +1,42 @@
+#CoverImage2{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('../../Art/Great-Britain/Dido_Building_Carthage-J.M.W.-Turner.jpg');
+    /*https://www.flickr.com/photos/162769613@N02/41524357191/*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:25px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 20px}
+to {background-position:  0 -140px;}
+}
+
+
+@media only screen and (max-width:670px) {
+    #CoverImage{
+        -webkit-animation: backgroundScroll-2 15s linear 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @-webkit-keyframes backgroundScroll-2 {
+        from {background-position: -10px -90px}
+        to {background-position: -180px -90px;}
+        }
+        
+    
+    }
+    
