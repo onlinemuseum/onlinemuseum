@@ -40,3 +40,8 @@ to {background-position:  0 -140px;}
     
     }
     
+audio{
+    margin:0 auto; 
+    display:block;
+    text-align:center;
+}
