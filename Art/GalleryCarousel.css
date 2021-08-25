@@ -32,7 +32,10 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
+#Quote{
+  color:rgb(9, 19, 71);
+  font-size:16.8px;
+}
 img{
   width:100%;
   object-fit: cover;
