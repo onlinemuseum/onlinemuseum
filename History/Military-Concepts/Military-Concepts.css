@@ -34,5 +34,11 @@ to {background-position:  0px -540px;}
 
         
     
-    }
     
+    #Quote3{
+        margin: 0 auto; 
+        text-align: center; 
+        color: rgb(155, 137, 37);
+        width:90%;;
+        font-style: oblique;
+    }
