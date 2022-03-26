@@ -27,8 +27,8 @@
 }
 
 @-webkit-keyframes backgroundScroll2 {
-from {background-position: 0px -100px}
-to {background-position:  0px -540px;}
+from {background-position: 0px -150px}
+to {background-position:  0px -440px;}
 }
 
 
@@ -39,6 +39,8 @@ to {background-position:  0px -540px;}
         margin: 0 auto; 
         text-align: center; 
         color: rgb(155, 137, 37);
+        color:rgb(165, 165, 165);
+        
         width:90%;;
         font-style: oblique;
     }
