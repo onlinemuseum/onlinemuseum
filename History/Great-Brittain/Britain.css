@@ -10,7 +10,7 @@
     background-attachment: fixed;
     background-size: cover;
     font-size: 12px;
-    padding:25px 0 ;
+    padding:30px 0 ;
     font-family: 'Dancing Script', cursive;
     -webkit-animation: backgroundScroll 15s linear 1;
     -webkit-animation-fill-mode: forwards;

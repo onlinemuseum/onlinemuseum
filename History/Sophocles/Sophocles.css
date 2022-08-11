@@ -1,0 +1,62 @@
+
+
+        
+#Quote{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:30px auto ;
+width:85%; 
+}
+#Quote2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:30px auto ;
+   
+}
+    
+.TextBox{
+    font-size:17px;
+    line-height:20px;
+}
+audio{
+display: block;
+margin:30px auto 30px auto;
+;
+}
+#Thumb-Historical-Buildings-In-London{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(82, 24, 14);
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url('The-Play-Ajax/The-suicide-of-ajax-depicted-on-an-etrurian-red-figured-calyx-krater.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:55px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll2 24s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll2 34s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+
+@-webkit-keyframes backgroundScroll2 {
+from {background-position: 0px -750px}
+to {background-position:  0px -200px;}
+}
+
+
+        h2{padding-top:15px;}
+    
+    
+    #Quote3{
+        margin: 0 auto; 
+        text-align: center; 
+        color: rgb(155, 137, 37);
+        color:rgb(165, 165, 165);
+        
+        width:90%;;
+        font-style: oblique;
+    }
