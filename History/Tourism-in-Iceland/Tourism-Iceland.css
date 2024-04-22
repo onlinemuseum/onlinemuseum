@@ -43,7 +43,7 @@ margin:30px auto 30px auto;
 }
 
 @-webkit-keyframes backgroundScroll2 {
-from {background-position:0px -650px}
+from {background-position:0px -350px}
 to {background-position:  0px 120px;}
 }
 
